@@ -11,7 +11,9 @@
 - ─ `Divider` — customizable horizontal lines
 - 🧠 Unicode-aware padding (emoji-safe)
 
-## 📦 Example
+## Examples
+
+### 📦 Boxed
 
 ```rust
 use cliux::Boxed;
@@ -24,13 +26,44 @@ fn main() {
 }
 ```
 
+### 📄 Section
+
+```rust
+use cliux::Section;
+
+fn main() {
+    Section::new("Wrapped Section")
+        .content("This is a long sentence that will be wrapped intelligently across multiple lines.")
+        .width(40)
+        .wrap(true)
+        .style('─')
+        .print();
+}
+```
+
+### ─ Divider
+
+```rust
+use cliux::Divider;
+
+fn main() {
+    Divider::new(30).style('=').print();
+}
+```
+
 ## 📚 Usage
 
 Add to your `Cargo.toml`:
 
 ```toml
-cliux = "0.1"
+cliux = "0.1.2"
 ```
+
+## Screenshots
+
+![Boxed](assets/boxed.png)
+![Section](assets/section.png)
+![Divider](assets/divider.png)
 
 ## 🚧 Status
 

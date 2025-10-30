@@ -1,4 +1,4 @@
-use crate::layout::pad::pad;
+use crate::layout::pad;
 
 pub struct Boxed {
     title: String,

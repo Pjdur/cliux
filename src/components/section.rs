@@ -1,10 +1,11 @@
-use crate::layout::pad::pad;
+use crate::layout::{pad, wrap_text};
 
 pub struct Section {
     title: String,
     content: String,
     width: usize,
     style: char,
+    wrap: bool,
 }
 
 impl Section {
@@ -14,6 +15,7 @@ impl Section {
             content: String::new(),
             width: 50,
             style: '─',
+            wrap: false,
         }
     }
 
@@ -32,11 +34,22 @@ impl Section {
         self
     }
 
+    pub fn wrap(mut self, wrap: bool) -> Self {
+        self.wrap = wrap;
+        self
+    }
+
     pub fn print(&self) {
         println!("{}:", self.title);
         println!("{}", self.style.to_string().repeat(self.width));
-        for line in self.content.lines() {
-            println!("{}", pad(line, self.width));
+        let lines = if self.wrap {
+            wrap_text(&self.content, self.width)
+        } else {
+            self.content.lines().map(|l| l.to_string()).collect()
+        };
+
+        for line in lines {
+            println!("{}", pad(&line, self.width));
         }
     }
 }
