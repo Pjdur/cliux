@@ -4,6 +4,7 @@ pub struct Section {
     title: String,
     content: String,
     width: usize,
+    style: char,
 }
 
 impl Section {
@@ -12,6 +13,7 @@ impl Section {
             title: title.to_string(),
             content: String::new(),
             width: 50,
+            style: '─',
         }
     }
 
@@ -25,9 +27,14 @@ impl Section {
         self
     }
 
+    pub fn style(mut self, style: char) -> Self {
+        self.style = style;
+        self
+    }
+
     pub fn print(&self) {
         println!("{}:", self.title);
-        println!("{}", "─".repeat(self.width));
+        println!("{}", self.style.to_string().repeat(self.width));
         for line in self.content.lines() {
             println!("{}", pad(line, self.width));
         }
