@@ -5,6 +5,7 @@ edition = "2024"
 license = "MIT"
 authors = ["Pjdur"]
 repository = "https://github.com/Pjdur/cliux"
+description = "Styled terminal output made simple — boxes, sections, dividers, and emoji-aware padding for CLI tools."
 
 [dependencies]
 unicode-segmentation = "1.10"
