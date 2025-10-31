@@ -1,4 +1,14 @@
+//! # cliux
+//!
+//! `cliux` is a lightweight Rust crate for formatting terminal output with clean, readable components — no TUI required.
+//! It helps CLI tools present information with structure and style using boxes, sections, dividers, and smart padding.
+
 pub mod components;
 pub mod layout;
 
-pub use components::{Boxed, Divider, Section};
+/// Re-exports the `Boxed` struct from the `components` module.
+pub use components::Boxed;
+/// Re-exports the `Divider` struct from the `components` module.
+pub use components::Divider;
+/// Re-exports the `Section` struct from the `components` module.
+pub use components::Section;
