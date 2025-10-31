@@ -4,7 +4,12 @@ All notable changes to this project will be documented here.
 
 ## [0.1.3] - 2025-10-30
 
-Added inline documentation for all public methods and properties.
+## [0.1.3] - 2025-10-30
+
+- Added inline documentation for all public methods and properties
+- Improved contributor onboarding with `CONTRIBUTING.md`
+- Updated changelog and published docs to docs.rs
+
 
 ## [0.1.2] - 2025-10-30
 ### Added
