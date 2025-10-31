@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented here.
 
+## [0.1.3] - 2025-10-30
+
+Added inline documentation for all public methods and properties.
+
 ## [0.1.2] - 2025-10-30
 ### Added
 - `.wrap()` support for `Section`
