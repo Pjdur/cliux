@@ -61,9 +61,17 @@ cliux = "0.1.2"
 
 ## Screenshots
 
-![Boxed](assets/boxed.png)
-![Section](assets/section.png)
-![Divider](assets/divider.png)
+### 📦 Boxed
+
+![Boxed](assets/boxed.gif)
+
+### 📄 Section
+
+![Section](assets/section.gif)
+
+### ─ Divider
+
+![Divider](assets/divider.gif)
 
 ## 🚧 Status
 

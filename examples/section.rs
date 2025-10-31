@@ -6,8 +6,6 @@ fn main() {
         .content("This is the content of the section.")
         .print();
 
-    println!(""); // Space between sections
-
     // Section using custom style '-'
     Section::new("Section #2")
         .content("This is the content of the section.")
@@ -17,7 +15,9 @@ fn main() {
 
     // Section with .wrap(true)
     Section::new("Section #3")
-        .content("This is the content of the section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel aliquam aliquet, nunc nisl aliquet nisl, vel aliquet nisl nisl vel nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel aliquam aliquet, nunc nisl aliquet nisl, vel aliquet nisl nisl vel nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel aliquam aliquet, nunc nisl aliquet nisl, vel aliquet nisl nisl vel nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel aliquam aliquet, nunc nisl aliquet nisl, vel aliquet nisl nisl vel nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel aliquam aliquet, nunc nisl aliquet nisl, vel aliquet nisl nisl vel nisl.")
+        .content(
+            "This is a long sentence that will be wrapped intelligently across multiple lines.",
+        )
         .wrap(true)
         .print();
 }
