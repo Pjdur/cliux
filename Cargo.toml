@@ -6,7 +6,7 @@ license = "MIT"
 authors = ["Pjdur"]
 repository = "https://github.com/Pjdur/cliux"
 description = "Styled terminal output made simple — boxes, sections, dividers, and emoji-aware padding for CLI tools."
-keywords = ["cli", "terminal", "output", "label", "box", "section"]
+keywords = ["cli", "terminal", "output"]
 categories = ["command-line-interface", "text-processing"]
 
 [dependencies]
