@@ -10,5 +10,7 @@ pub mod layout;
 pub use components::Boxed;
 /// Re-exports the `Divider` struct from the `components` module.
 pub use components::Divider;
+/// Re-exports the `Label` struct from the `components` module.
+pub use components::Label;
 /// Re-exports the `Section` struct from the `components` module.
 pub use components::Section;

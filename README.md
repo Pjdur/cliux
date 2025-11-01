@@ -26,6 +26,17 @@ fn main() {
 }
 ```
 
+### 🏷️ Label
+
+```rust
+use cliux::Label;
+
+fn main() {
+    Label::new("INFO").style("info").print();
+    Label::new("✓ Done").style("success").print();
+    Label::new("ERROR").style("error").print();
+}
+```
 ### 📄 Section
 
 ```rust
@@ -64,6 +75,10 @@ cliux = "0.1.2"
 ### 📦 Boxed
 
 ![Boxed](assets/boxed.gif)
+
+### 🏷️ Label
+
+![Label](assets/label.gif)
 
 ### 📄 Section
 

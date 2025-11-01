@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented here.
 
+## [0.2.0] - 2025-11-01
+### Added
+- `Label` component with `.style()`, `.color()`, `.bold()`, and `.inline()`
+- `examples/label.rs` and demo GIF
+- README section for `Label`
+
+### Improved
+- Internal docs and examples
+
 ## [0.1.3] - 2025-10-31
 
 - Added inline documentation for all public methods and properties
