@@ -2,7 +2,20 @@
 
 All notable changes to this project will be documented here.
 
+## [0.3.0] - 2025-11-04
+
+### Added
+- `Tag` component for inline status markers with customizable wrappers and colors
+- `List` component for bullet-pointed or numbered lists with optional wrapping
+- Demo GIFs for `Tag` and `List`
+- Examples for `tag.rs` and `list.rs`
+
+### Improved
+- All examples now use root-level imports (`use cliux::...`)
+- README updated with new components and visuals
+
 ## [0.2.0] - 2025-11-01
+
 ### Added
 - `Label` component with `.style()`, `.color()`, `.bold()`, and `.inline()`
 - `examples/label.rs` and demo GIF

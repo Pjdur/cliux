@@ -15,7 +15,7 @@ use ansi_term::Colour;
 /// # Returns
 ///
 /// An `Option<Colour>` which is `Some(Colour)` if the name is recognized, otherwise `None`.
-fn parse_colour(name: &str) -> Option<Colour> {
+pub(crate) fn parse_colour(name: &str) -> Option<Colour> {
     match name.to_lowercase().as_str() {
         "black" => Some(Colour::Black),
         "red" => Some(Colour::Red),

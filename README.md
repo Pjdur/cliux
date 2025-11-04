@@ -2,18 +2,20 @@
 
 **Styled terminal output made simple.**
 
-`cliux` is a lightweight Rust crate for formatting terminal output with clean, readable components — no TUI required. It helps CLI tools present information with structure and style using boxes, sections, dividers, and smart padding.
+`cliux` is a lightweight Rust crate for formatting terminal output with clean, readable components — no TUI required. It helps CLI tools present information with structure and style using boxes, sections, dividers, lists, tags, and smart padding.
 
 ## ✨ Features
 
-- 📦 `Boxed` — bordered containers with titles and content
-- 📄 `Section` — titled blocks with horizontal dividers
-- ─ `Divider` — customizable horizontal lines
-- 🧠 Unicode-aware padding (emoji-safe)
+- `Boxed` — bordered containers with titles and content
+- `Section` — titled blocks with horizontal dividers
+- `Divider` — customizable horizontal lines
+- `List` — bullet-pointed lists with customizable styles
+- `Tag` — colored tags with customizable styles
+- `Padding` — Unicode-aware padding (emoji-safe)
 
 ## Examples
 
-### 📦 Boxed
+### Boxed
 
 ```rust
 use cliux::Boxed;
@@ -26,7 +28,11 @@ fn main() {
 }
 ```
 
-### 🏷️ Label
+### Boxed
+
+![Boxed](assets/boxed.gif)
+
+### Label
 
 ```rust
 use cliux::Label;
@@ -37,7 +43,7 @@ fn main() {
     Label::new("ERROR").style("error").print();
 }
 ```
-### 📄 Section
+### Section
 
 ```rust
 use cliux::Section;
@@ -52,7 +58,7 @@ fn main() {
 }
 ```
 
-### ─ Divider
+### Divider
 
 ```rust
 use cliux::Divider;
@@ -67,26 +73,34 @@ fn main() {
 Add to your `Cargo.toml`:
 
 ```toml
-cliux = "0.1.2"
+cliux = "0.3.0"
 ```
 
 ## Screenshots
 
-### 📦 Boxed
+### Boxed
 
 ![Boxed](assets/boxed.gif)
 
-### 🏷️ Label
+### Label
 
 ![Label](assets/label.gif)
 
-### 📄 Section
+### Section
 
 ![Section](assets/section.gif)
 
-### ─ Divider
+### Divider
 
 ![Divider](assets/divider.gif)
+
+### List
+
+![List](assets/list.gif)
+
+### Tag
+
+![Tag](assets/tag.gif)
 
 ## 🚧 Status
 

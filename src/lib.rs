@@ -14,3 +14,7 @@ pub use components::Divider;
 pub use components::Label;
 /// Re-exports the `Section` struct from the `components` module.
 pub use components::Section;
+/// Re-exports the `Tag` struct from the `components` module.
+pub use components::Tag;
+/// Re-exports the `List` struct from the `components` module.
+pub use components::List;

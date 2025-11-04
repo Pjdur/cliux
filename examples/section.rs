@@ -1,4 +1,4 @@
-use cliux::components::Section;
+use cliux::Section;
 
 fn main() {
     // Section using default style '─'
