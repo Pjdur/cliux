@@ -28,10 +28,6 @@ fn main() {
 }
 ```
 
-### Boxed
-
-![Boxed](assets/boxed.gif)
-
 ### Label
 
 ```rust
@@ -65,6 +61,35 @@ use cliux::Divider;
 
 fn main() {
     Divider::new(30).style('=').print();
+}
+```
+
+### List
+
+```rust
+use cliux::List;
+
+fn main() {
+    List::new(vec!["First item", "Second item", "Third item"])
+        .bullet("*")
+        .width(40)
+        .print();
+
+    List::new(vec!["One", "Two", "Three"])
+        .numbered()
+        .print();
+}
+```
+
+### Tag
+
+```rust
+use cliux::Tag;
+
+fn main() {
+    Tag::new("beta").rounded().color("yellow").bold(true).print();
+    Tag::new("admin").curly().color("red").print();
+    Tag::new("draft").print();
 }
 ```
 
