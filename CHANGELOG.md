@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented here.
 
-## [v0.4.1] – 2025-11-05
+## [v0.4.0] – 2025-11-05
 
 ### New Components
 
