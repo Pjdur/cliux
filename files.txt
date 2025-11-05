@@ -1,0 +1,2141 @@
+cliux
+├── assets/
+│   ├── boxed.gif
+│       [Could not read file: stream did not contain valid UTF-8]
+│   ├── divider.gif
+│       [Could not read file: stream did not contain valid UTF-8]
+│   ├── label.gif
+│       [Could not read file: stream did not contain valid UTF-8]
+│   ├── list.gif
+│       [Could not read file: stream did not contain valid UTF-8]
+│   ├── note.cast
+│       --- FILE CONTENT START ---
+│       {"version":2,"width":114,"height":13,"timestamp":1762363288,"env":{"TERM":"xterm-256color","SHELL":"powershell.exe"}}
+│       [0.28980469703674316,"o","\u001b[?25l\u001b[2J\u001b[m\u001b[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\u001b[4;1HInstall the latest PowerShell for new features and improvements! https://aka.ms/PSWindows\u001b[6;1H\u001b]0;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\u0007\u001b[?25h"]
+│       [0.6647684574127197,"o","PS D:\\cliux> "]
+│       [1.1994004249572754,"o","\u001b[93mc"]
+│       [1.2143187522888184,"o","\u001b[m"]
+│       [1.258467435836792,"o","\u001b[93m\bcl"]
+│       [1.2741179466247559,"o","\u001b[m"]
+│       [1.368086576461792,"o","\u001b[?25l\u001b[93m\u001b[6;14Hcls\u001b[?25h"]
+│       [1.3837800025939941,"o","\u001b[m"]
+│       [1.524888277053833,"o","\r\n"]
+│       [1.5713679790496826,"o","\u001b[?25l\u001b[3J\u001b[H\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\u001b[H\u001b[?25h"]
+│       [1.6189372539520264,"o","PS D:\\cliux> "]
+│       [2.8207461833953857,"o","\u001b[93mc"]
+│       [2.836695909500122,"o","\u001b[m"]
+│       [3.0083792209625244,"o","\u001b[93m\bca"]
+│       [3.028982162475586,"o","\u001b[m"]
+│       [3.211700916290283,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcar\u001b[?25h"]
+│       [3.2307443618774414,"o","\u001b[m"]
+│       [3.3991503715515137,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcarg\u001b[?25h"]
+│       [3.414424180984497,"o","\u001b[m"]
+│       [3.513435125350952,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo\u001b[?25h"]
+│       [3.5241634845733643,"o","\u001b[m"]
+│       [3.680567979812622,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[?25h"]
+│       [3.6958186626434326,"o","\u001b[m"]
+│       [3.763984203338623,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mr\u001b[?25h"]
+│       [3.8849387168884277,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mru\u001b[?25h"]
+│       [4.3209569454193115,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun\u001b[?25h"]
+│       [4.492588996887207,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[?25h"]
+│       [4.729205369949341,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun -\u001b[?25h"]
+│       [4.887994766235352,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--\u001b[?25h"]
+│       [4.919428825378418,"o","\u001b[m"]
+│       [4.991772890090942,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--e\u001b[?25h"]
+│       [5.007662773132324,"o","\u001b[m"]
+│       [5.492095232009888,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--ex\u001b[?25h"]
+│       [5.512484788894653,"o","\u001b[m"]
+│       [5.679957628250122,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--exa\u001b[?25h"]
+│       [5.699928283691406,"o","\u001b[m"]
+│       [5.773168325424194,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--exam\u001b[?25h"]
+│       [5.813159227371216,"o","\u001b[m"]
+│       [5.960678339004517,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--examp\u001b[?25h"]
+│       [5.976335048675537,"o","\u001b[m"]
+│       [6.183069467544556,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--exampe\u001b[?25h"]
+│       [6.195231199264526,"o","\u001b[m"]
+│       [6.42952299118042,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--examp \b\u001b[?25h"]
+│       [6.4452736377716064,"o","\u001b[m"]
+│       [6.585639238357544,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--exampl\u001b[?25h"]
+│       [6.604814052581787,"o","\u001b[m"]
+│       [6.663663387298584,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example\u001b[?25h"]
+│       [6.6839759349823,"o","\u001b[m"]
+│       [6.757733583450317,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example \u001b[?25h"]
+│       [6.77305793762207,"o","\u001b[m"]
+│       [6.898152828216553,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example \u001b[mn\u001b[?25h"]
+│       [7.070188283920288,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example \u001b[mno\u001b[?25h"]
+│       [7.148147344589233,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example \u001b[mnot\u001b[?25h"]
+│       [7.742279291152954,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example \u001b[mnote\u001b[?25h"]
+│       [8.166410684585571,"o","\r\n"]
+│       [8.569990158081055,"o","\u001b[32m\u001b[1m    Finished\u001b[m `dev` profile [unoptimized + debuginfo] target(s) in 0.10s\u001b[32m\u001b[1m\r\n     Running\u001b[m `target\\debug\\examples\\note.exe`\r\n"]
+│       [8.913297414779663,"o","╭──────────────────────────────────────╮\r\n│ ⚠️ Be careful with this setting.     │\r\n╰──────────────────────────────────────╯\r\n+──────────────────────────────────────+\r\n| 💡 Tip: You can use --force here.    |\r\n+──────────────────────────────────────+\r\n"]
+│       [8.929112195968628,"o","PS D:\\cliux> "]
+│       [9.897683382034302,"o","\u001b[93me"]
+│       [9.913358688354492,"o","\u001b[m"]
+│       [10.085402011871338,"o","\u001b[93m\bex"]
+│       [10.105115413665771,"o","\u001b[m"]
+│       [10.210665702819824,"o","\u001b[?25l\u001b[93m\u001b[10;14Hexi\u001b[?25h"]
+│       [10.240496397018433,"o","\u001b[m"]
+│       [10.429342031478882,"o","\u001b[?25l\u001b[92m\u001b[10;14Hexit\u001b[?25h"]
+│       [10.44578242301941,"o","\u001b[m"]
+│       [10.679314136505127,"o","\r\n"]
+│       --- FILE CONTENT END ---
+│   ├── note.gif
+│       [Could not read file: stream did not contain valid UTF-8]
+│   ├── section.gif
+│       [Could not read file: stream did not contain valid UTF-8]
+│   ├── table.cast
+│       --- FILE CONTENT START ---
+│       {"version":2,"width":114,"height":13,"timestamp":1762363256,"env":{"SHELL":"powershell.exe","TERM":"xterm-256color"}}
+│       [0.27774930000305176,"o","\u001b[?25l\u001b[2J\u001b[m\u001b[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\u001b[4;1HInstall the latest PowerShell for new features and improvements! https://aka.ms/PSWindows\u001b[6;1H\u001b]0;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\u0007\u001b[?25h"]
+│       [0.6370391845703125,"o","PS D:\\cliux> "]
+│       [1.187117338180542,"o","\u001b[93mc"]
+│       [1.1996345520019531,"o","\u001b[m"]
+│       [1.2630376815795898,"o","\u001b[93m\bcl"]
+│       [1.277867078781128,"o","\u001b[m"]
+│       [1.371610164642334,"o","\u001b[?25l\u001b[93m\u001b[6;14Hcls\u001b[?25h"]
+│       [1.3871970176696777,"o","\u001b[m"]
+│       [1.496412992477417,"o","\r\n"]
+│       [1.5439047813415527,"o","\u001b[?25l\u001b[3J\u001b[H\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\u001b[H\u001b[?25h"]
+│       [1.5666885375976562,"o","\u001b[?25l\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\u001b[H\u001b[?25h"]
+│       [1.5904278755187988,"o","PS D:\\cliux> "]
+│       [1.8561577796936035,"o","\u001b[93mc"]
+│       [1.872072458267212,"o","\u001b[m"]
+│       [2.0750021934509277,"o","\u001b[93m\bca"]
+│       [2.090477228164673,"o","\u001b[m"]
+│       [2.2627859115600586,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcar\u001b[?25h"]
+│       [2.2870779037475586,"o","\u001b[m"]
+│       [2.43717098236084,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcarg\u001b[?25h"]
+│       [2.449786424636841,"o","\u001b[m"]
+│       [2.5439653396606445,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo\u001b[?25h"]
+│       [2.559324026107788,"o","\u001b[m"]
+│       [2.7314867973327637,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[?25h"]
+│       [2.7469537258148193,"o","\u001b[m"]
+│       [2.8251233100891113,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mr\u001b[?25h"]
+│       [2.935922384262085,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mru\u001b[?25h"]
+│       [3.1220762729644775,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun\u001b[?25h"]
+│       [3.5440187454223633,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[?25h"]
+│       [3.8416247367858887,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun -\u001b[?25h"]
+│       [3.9820821285247803,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--\u001b[?25h"]
+│       [3.997410774230957,"o","\u001b[m"]
+│       [4.1696882247924805,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--e\u001b[?25h"]
+│       [4.185812473297119,"o","\u001b[m"]
+│       [4.35723876953125,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--ex\u001b[?25h"]
+│       [4.3724894523620605,"o","\u001b[m"]
+│       [4.544981002807617,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--exa\u001b[?25h"]
+│       [4.570948600769043,"o","\u001b[m"]
+│       [4.609961032867432,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--exam\u001b[?25h"]
+│       [4.625354290008545,"o","\u001b[m"]
+│       [4.794369697570801,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--examp\u001b[?25h"]
+│       [4.809993743896484,"o","\u001b[m"]
+│       [4.966927766799927,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--exampl\u001b[?25h"]
+│       [5.005012273788452,"o","\u001b[m"]
+│       [5.060893774032593,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example\u001b[?25h"]
+│       [5.075783967971802,"o","\u001b[m"]
+│       [5.184993743896484,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example \u001b[?25h"]
+│       [5.203546524047852,"o","\u001b[m"]
+│       [5.279328346252441,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example \u001b[mt\u001b[?25h"]
+│       [5.49797511100769,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example \u001b[mta\u001b[?25h"]
+│       [5.560367584228516,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example \u001b[mtab\u001b[?25h"]
+│       [5.763465404510498,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example \u001b[mtabl\u001b[?25h"]
+│       [5.888219118118286,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example \u001b[mtable\u001b[?25h"]
+│       [6.028880596160889,"o","\r\n"]
+│       [6.419597625732422,"o","\u001b[32m\u001b[1m    Finished\u001b[m `dev` profile [unoptimized + debuginfo] target(s) in 0.11s\u001b[32m\u001b[1m\r\n     Running\u001b[m `target\\debug\\examples\\table.exe`\r\n"]
+│       [6.732205152511597,"o","+--------------------+----------+\r\n| Name               | Status   |\r\n+--------------------+----------+\r\n| cliux              | active   |\r\n| other              | pending  |\r\n+--------------------+----------+\r\n"]
+│       [6.748462915420532,"o","PS D:\\cliux> "]
+│       [7.763109445571899,"o","\u001b[93me"]
+│       [7.778758764266968,"o","\u001b[m"]
+│       [7.951489448547363,"o","\u001b[93m\bex"]
+│       [7.966242790222168,"o","\u001b[m"]
+│       [8.04464602470398,"o","\u001b[?25l\u001b[93m\u001b[10;14Hexi\u001b[?25h"]
+│       [8.060189723968506,"o","\u001b[m"]
+│       [8.185110330581665,"o","\u001b[?25l\u001b[92m\u001b[10;14Hexit\u001b[?25h"]
+│       [8.203560590744019,"o","\u001b[m"]
+│       [8.37264108657837,"o","\r\n"]
+│       --- FILE CONTENT END ---
+│   ├── table.gif
+│       [Could not read file: stream did not contain valid UTF-8]
+│   └── tag.gif
+│       [Could not read file: stream did not contain valid UTF-8]
+├── examples/
+│   ├── boxed.rs
+│       --- FILE CONTENT START ---
+│       use cliux::Boxed;
+│       
+│       fn main() {
+│           Boxed::new("Cliux Boxed")
+│               .content("This code uses the cliux library to create a boxed section.")
+│               .width(61)
+│               .print();
+│       }
+│       --- FILE CONTENT END ---
+│   ├── divider.rs
+│       --- FILE CONTENT START ---
+│       use cliux::Divider;
+│       
+│       fn main() {
+│           Divider::new(20).print();
+│       }
+│       --- FILE CONTENT END ---
+│   ├── label.rs
+│       --- FILE CONTENT START ---
+│       use cliux::Label;
+│       
+│       fn main() {
+│           Label::new("INFO").style("info").print();
+│           Label::new("✓ Done").style("success").print();
+│           Label::new("ERROR").style("error").print();
+│       
+│           let inline = Label::new("DEBUG").color("cyan").bold(true).inline();
+│           println!("Inline label: {}", inline);
+│       }
+│       --- FILE CONTENT END ---
+│   ├── list.rs
+│       --- FILE CONTENT START ---
+│       use cliux::List;
+│       
+│       fn main() {
+│           List::new(vec!["First item", "Second item", "Third item"])
+│               .bullet("*")
+│               .width(40)
+│               .print();
+│       
+│           List::new(vec!["One", "Two", "Three"])
+│               .numbered()
+│               .print();
+│       }
+│       --- FILE CONTENT END ---
+│   ├── note.rs
+│       --- FILE CONTENT START ---
+│       use cliux::Note;
+│       
+│       fn main() {
+│           Note::new("Be careful with this setting.")
+│               .kind("warning")
+│               .style("rounded")
+│               .width(40)
+│               .print();
+│       
+│           Note::new("Tip: You can use --force here.")
+│               .kind("info")
+│               .style("+")
+│               .width(40)
+│               .print();
+│       }
+│       --- FILE CONTENT END ---
+│   ├── section.rs
+│       --- FILE CONTENT START ---
+│       use cliux::Section;
+│       
+│       fn main() {
+│           // Section using default style '─'
+│           Section::new("Section #1")
+│               .content("This is the content of the section.")
+│               .print();
+│       
+│           // Section using custom style '-'
+│           Section::new("Section #2")
+│               .content("This is the content of the section.")
+│               .style('-')
+│               .wrap(true)
+│               .print();
+│       
+│           // Section with .wrap(true)
+│           Section::new("Section #3")
+│               .content(
+│                   "This is a long sentence that will be wrapped intelligently across multiple lines.",
+│               )
+│               .wrap(true)
+│               .print();
+│       }
+│       --- FILE CONTENT END ---
+│   ├── table.rs
+│       --- FILE CONTENT START ---
+│       use cliux::Table;
+│       
+│       fn main() {
+│           Table::new()
+│               .headers(&["Name", "Status"])
+│               .row(&["cliux", "active"])
+│               .row(&["other", "pending"])
+│               .widths(&[20, 10])
+│               .bordered(true)
+│               .print();
+│       }
+│       --- FILE CONTENT END ---
+│   └── tag.rs
+│       --- FILE CONTENT START ---
+│       use cliux::Tag;
+│       
+│       fn main() {
+│           Tag::new("beta").rounded().color("yellow").bold(true).print();
+│           Tag::new("admin").curly().color("red").print();
+│           Tag::new("draft").print();
+│       }
+│       --- FILE CONTENT END ---
+├── src/
+│   ├── components/
+│   │   ├── boxed.rs
+│   │       --- FILE CONTENT START ---
+│   │       use crate::layout::pad;
+│   │       
+│   │       /// A bordered container for displaying content with a title.
+│   │       ///
+│   │       /// `Boxed` allows you to present information within a visually distinct
+│   │       /// box in the terminal, complete with a title and multi-line content.
+│   │       ///
+│   │       /// # Examples
+│   │       ///
+│   │       /// ```
+│   │       /// use cliux::Boxed;
+│   │       ///
+│   │       /// Boxed::new("Important Notice")
+│   │       ///     .content("This is a message inside a box.\nIt can span multiple lines.")
+│   │       ///     .width(60)
+│   │       ///     .print();
+│   │       /// ```
+│   │       pub struct Boxed {
+│   │           title: String,
+│   │           content: String,
+│   │           width: usize,
+│   │       }
+│   │       
+│   │       impl Boxed {
+│   │           /// Creates a new `Boxed` instance with the given title.
+│   │           ///
+│   │           /// The default width is 50 characters, and the content is initially empty.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `title` - The title to display at the top of the box.
+│   │           pub fn new(title: &str) -> Self {
+│   │               Self {
+│   │                   title: title.to_string(),
+│   │                   content: String::new(),
+│   │                   width: 50,
+│   │               }
+│   │           }
+│   │       
+│   │           /// Sets the main content of the box.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Boxed` instance,
+│   │           /// allowing for method chaining. Newline characters (`\n`) in the
+│   │           /// content will create new lines within the box.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `text` - The string slice containing the content for the box.
+│   │           pub fn content(mut self, text: &str) -> Self {
+│   │               self.content = text.to_string();
+│   │               self
+│   │           }
+│   │       
+│   │           /// Sets the total width of the box, including borders.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Boxed` instance,
+│   │           /// allowing for method chaining. The content and title will be
+│   │           /// padded to fit this width.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `width` - The desired total width of the box in characters.
+│   │           pub fn width(mut self, width: usize) -> Self {
+│   │               self.width = width;
+│   │               self
+│   │           }
+│   │       
+│   │           /// Prints the `Boxed` content to the console.
+│   │           ///
+│   │           /// This method renders the box with its title, borders, and content
+│   │           /// to standard output.
+│   │           pub fn print(&self) {
+│   │               println!("╭{:─<1$}╮", "", self.width);
+│   │               println!("│ {} │", pad(&self.title, self.width - 2));
+│   │               println!("├{:─<1$}┤", "", self.width);
+│   │               for line in self.content.lines() {
+│   │                   println!("│ {} │", pad(line, self.width - 2));
+│   │               }
+│   │               println!("╰{:─<1$}╯", "", self.width);
+│   │           }
+│   │       }
+│   │       --- FILE CONTENT END ---
+│   │   ├── divider.rs
+│   │       --- FILE CONTENT START ---
+│   │       /// A customizable horizontal line for separating sections of output.
+│   │       ///
+│   │       /// The `Divider` struct allows you to easily create horizontal rules
+│   │       /// in your terminal output, useful for visually separating different
+│   │       /// parts of information. You can customize its width and the character
+│   │       /// used to draw it.
+│   │       ///
+│   │       /// # Examples
+│   │       ///
+│   │       /// ```
+│   │       /// use cliux::Divider;
+│   │       ///
+│   │       /// // A default divider of 50 characters
+│   │       /// Divider::new(50).print();
+│   │       ///
+│   │       /// // A divider using '=' characters
+│   │       /// Divider::new(30).style('=').print();
+│   │       /// ```
+│   │       pub struct Divider {
+│   │           width: usize,
+│   │           style: char, // e.g. '─', '=', '.', etc.
+│   │       }
+│   │       
+│   │       impl Divider {
+│   │           /// Creates a new `Divider` instance with the specified width.
+│   │           ///
+│   │           /// By default, the divider will use the '─' character as its style.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `width` - The desired total width of the divider in characters.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// A new `Divider` instance.
+│   │           pub fn new(width: usize) -> Self {
+│   │               Self {
+│   │                   width, style: '─'
+│   │               }
+│   │           }
+│   │       
+│   │           /// Sets the character used to draw the divider.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Divider` instance,
+│   │           /// allowing for method chaining.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `style` - The character to use for the divider (e.g., `'='`, `'-'`, `'*'`).
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `Divider` instance with the updated style.
+│   │           pub fn style(mut self, style: char) -> Self {
+│   │               self.style = style;
+│   │               self
+│   │           }
+│   │       
+│   │           /// Prints the `Divider` to the console.
+│   │           ///
+│   │           /// This method outputs a line of the chosen `style` character, repeated
+│   │           /// `width` times, to standard output.
+│   │           pub fn print(&self) {
+│   │               println!("{}", self.style.to_string().repeat(self.width));
+│   │           }
+│   │       }
+│   │       --- FILE CONTENT END ---
+│   │   ├── label.rs
+│   │       --- FILE CONTENT START ---
+│   │       use ansi_term::Colour;
+│   │       
+│   │       /// Parses a string representation of a color into an `ansi_term::Colour` enum variant.
+│   │       ///
+│   │       /// This internal helper function supports a predefined set of color names (case-insensitive)
+│   │       /// and returns `None` if the name does not match any supported color.
+│   │       ///
+│   │       /// Supported colors include: "black", "red", "green", "yellow", "blue", "purple", "magenta", "cyan", "white".
+│   │       /// "purple" and "magenta" are treated as synonyms.
+│   │       ///
+│   │       /// # Arguments
+│   │       ///
+│   │       /// * `name` - A string slice representing the color name.
+│   │       ///
+│   │       /// # Returns
+│   │       ///
+│   │       /// An `Option<Colour>` which is `Some(Colour)` if the name is recognized, otherwise `None`.
+│   │       pub(crate) fn parse_colour(name: &str) -> Option<Colour> {
+│   │           match name.to_lowercase().as_str() {
+│   │               "black" => Some(Colour::Black),
+│   │               "red" => Some(Colour::Red),
+│   │               "green" => Some(Colour::Green),
+│   │               "yellow" => Some(Colour::Yellow),
+│   │               "blue" => Some(Colour::Blue),
+│   │               "purple" | "magenta" => Some(Colour::Purple),
+│   │               "cyan" => Some(Colour::Cyan),
+│   │               "white" => Some(Colour::White),
+│   │               _ => None,
+│   │           }
+│   │       }
+│   │       
+│   │       /// A customizable text label designed for terminal output, supporting colors, boldness, and predefined styles.
+│   │       ///
+│   │       /// The `Label` struct allows you to create short, formatted text snippets, often
+│   │       /// used for status indicators, categorization, or highlighting. It integrates
+│   │       /// with `ansi_term` for rich terminal styling.
+│   │       ///
+│   │       /// # Examples
+│   │       ///
+│   │       /// Basic usage:
+│   │       /// ```
+│   │       /// use cliux::components::Label;
+│   │       ///
+│   │       /// Label::new("SUCCESS").color("green").bold(true).print();
+│   │       /// ```
+│   │       ///
+│   │       /// Using predefined styles:
+│   │       /// ```
+│   │       /// use cliux::components::Label;
+│   │       ///
+│   │       /// Label::new("INFO").style("info").print();
+│   │       /// Label::new("ERROR").style("error").print();
+│   │       /// ```
+│   │       ///
+│   │       /// Getting an inline string:
+│   │       /// ```
+│   │       /// use cliux::components::Label;
+│   │       ///
+│   │       /// let inline_label = Label::new("STATUS").color("yellow").inline();
+│   │       /// println!("Current {}", inline_label);
+│   │       /// ```
+│   │       pub struct Label {
+│   │           text: String,
+│   │           color: Option<String>,
+│   │           bold: bool,
+│   │       }
+│   │       
+│   │       impl Label {
+│   │           /// Creates a new `Label` instance with the specified text.
+│   │           ///
+│   │           /// The label is initially uncolored, not bold, and has no predefined style.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `text` - The string slice that will be displayed within the label.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// A new `Label` instance.
+│   │           pub fn new(text: &str) -> Self {
+│   │               Self {
+│   │                   text: text.to_string(),
+│   │                   color: None,
+│   │                   bold: false,
+│   │               }
+│   │           }
+│   │       
+│   │           /// Sets the foreground color of the label.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Label` instance,
+│   │           /// allowing for method chaining. The color name should be one of the
+│   │           /// supported names (e.g., "red", "blue", "green"). If an unsupported
+│   │           /// color name is provided, the color will not be applied.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `color` - A string slice representing the desired color name.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `Label` instance with the updated color setting.
+│   │           pub fn color(mut self, color: &str) -> Self {
+│   │               self.color = Some(color.to_string());
+│   │               self
+│   │           }
+│   │       
+│   │           /// Sets whether the label text should be bold.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Label` instance,
+│   │           /// allowing for method chaining.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `bold` - A boolean value: `true` for bold text, `false` otherwise.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `Label` instance with the updated bold setting.
+│   │           pub fn bold(mut self, bold: bool) -> Self {
+│   │               self.bold = bold;
+│   │               self
+│   │           }
+│   │       
+│   │           /// Applies a predefined style to the label.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Label` instance,
+│   │           /// allowing for method chaining. Predefined styles automatically set
+│   │           /// color and/or boldness.
+│   │           ///
+│   │           /// Supported styles:
+│   │           /// - "info": Sets color to blue and bold to true.
+│   │           /// - "success": Sets color to green.
+│   │           /// - "error": Sets color to red and bold to true.
+│   │           ///
+│   │           /// If an unsupported style name is provided, no changes are applied.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `style` - A string slice representing the predefined style name.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `Label` instance with the applied style.
+│   │           pub fn style(self, style: &str) -> Self {
+│   │               match style {
+│   │                   "info" => self.color("blue").bold(true),
+│   │                   "success" => self.color("green"),
+│   │                   "error" => self.color("red").bold(true),
+│   │                   _ => self,
+│   │               }
+│   │           }
+│   │       
+│   │           /// Prints the formatted label to the console, enclosed in square brackets.
+│   │           ///
+│   │           /// The output will include ANSI escape codes for color and boldness if specified.
+│   │           /// The label text will be formatted as `[TEXT]`.
+│   │           ///
+│   │           /// # Examples
+│   │           ///
+│   │           /// ```
+│   │           /// use cliux::components::Label;
+│   │           /// Label::new("Done").style("success").print(); // Prints "[Done]" in green
+│   │           /// ```
+│   │           pub fn print(&self) {
+│   │               let mut style = ansi_term::Style::new();
+│   │       
+│   │               if let Some(ref color_name) = self.color {
+│   │                   if let Some(colour) = parse_colour(color_name) {
+│   │                       style = style.fg(colour);
+│   │                   }
+│   │               }
+│   │       
+│   │               if self.bold {
+│   │                   style = style.bold();
+│   │               }
+│   │       
+│   │               println!("{}", style.paint(format!("[{}]", self.text)));
+│   │           }
+│   │       
+│   │           /// Returns the formatted label as an `ansi_term::ANSIGenericString`,
+│   │           /// suitable for inline use within other `println!` or string operations.
+│   │           ///
+│   │           /// The returned string will include ANSI escape codes for color and boldness
+│   │           /// if specified. The label text will be formatted as `[TEXT]`.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// A `String` containing the formatted label with ANSI escape codes.
+│   │           ///
+│   │           /// # Examples
+│   │           ///
+│   │           /// ```
+│   │           /// use cliux::components::Label;
+│   │           /// let status = Label::new("WARNING").color("yellow").inline();
+│   │           /// println!("Operation Status: {}", status);
+│   │           /// ```
+│   │           pub fn inline(&self) -> String {
+│   │               let mut style = ansi_term::Style::new();
+│   │       
+│   │               if let Some(ref color_name) = self.color {
+│   │                   if let Some(colour) = parse_colour(color_name) {
+│   │                       style = style.fg(colour);
+│   │                   }
+│   │               }
+│   │       
+│   │               if self.bold {
+│   │                   style = style.bold();
+│   │               }
+│   │       
+│   │               style.paint(format!("[{}]", self.text)).to_string()
+│   │           }
+│   │       }
+│   │       --- FILE CONTENT END ---
+│   │   ├── list.rs
+│   │       --- FILE CONTENT START ---
+│   │       use crate::layout::wrap_text;
+│   │       
+│   │       /// A component for displaying lists of items in the terminal.
+│   │       ///
+│   │       /// The `List` struct allows you to present collections of text items either
+│   │       /// as bullet points or numbered lists. It supports optional text wrapping
+│   │       /// for long list items.
+│   │       ///
+│   │       /// # Examples
+│   │       ///
+│   │       /// Basic bullet list:
+│   │       /// ```
+│   │       /// use cliux::components::List;
+│   │       ///
+│   │       /// List::new(vec!["Item One", "Item Two", "Item Three"]).print();
+│   │       /// ```
+│   │       ///
+│   │       /// Numbered list:
+│   │       /// ```
+│   │       /// use cliux::components::List;
+│   │       ///
+│   │       /// List::new(vec!["First Step", "Second Step", "Third Step"])
+│   │       ///     .numbered()
+│   │       ///     .print();
+│   │       /// ```
+│   │       ///
+│   │       /// List with custom bullet and wrapped text:
+│   │       /// ```
+│   │       /// use cliux::components::List;
+│   │       ///
+│   │       /// let long_item = "This is a very long list item that needs to be wrapped across multiple lines.";
+│   │       /// List::new(vec!["Short item", long_item, "Another item"])
+│   │       ///     .bullet("➢")
+│   │       ///     .width(40)
+│   │       ///     .print();
+│   │       /// ```
+│   │       pub struct List {
+│   │           items: Vec<String>,
+│   │           bullet: Option<String>,
+│   │           width: Option<usize>,
+│   │       }
+│   │       
+│   │       impl List {
+│   │           /// Creates a new `List` instance with the given items.
+│   │           ///
+│   │           /// By default, the list will use a bullet point (`•`) for each item
+│   │           /// and will not be numbered. Items will not be wrapped unless a `width`
+│   │           /// is explicitly set.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `items` - A `Vec` of string slices representing the items in the list.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// A new `List` instance.
+│   │           pub fn new(items: Vec<&str>) -> Self {
+│   │               Self {
+│   │                   items: items.into_iter().map(|s| s.to_string()).collect(),
+│   │                   bullet: Some("•".to_string()),
+│   │                   width: None,
+│   │               }
+│   │           }
+│   │       
+│   │           /// Sets a custom bullet symbol for the list.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `List` instance,
+│   │           /// allowing for method chaining. Calling this will disable numbering.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `symbol` - A string slice representing the custom bullet symbol (e.g., `"-"`, `"*"`).
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `List` instance with the updated bullet symbol.
+│   │           pub fn bullet(mut self, symbol: &str) -> Self {
+│   │               self.bullet = Some(symbol.to_string());
+│   │               self
+│   │           }
+│   │       
+│   │           /// Configures the list to be numbered (e.g., "1. ", "2. ").
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `List` instance,
+│   │           /// allowing for method chaining. Calling this will disable custom bullets.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `List` instance configured for numbering.
+│   │           pub fn numbered(mut self) -> Self {
+│   │               self.bullet = None;
+│   │               self
+│   │           }
+│   │       
+│   │           /// Sets the maximum width for each list item, enabling text wrapping.
+│   │           ///
+│   │           /// If an item's content exceeds this width, it will be wrapped onto
+│   │           /// subsequent lines, indented to align with the start of the item's text.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `List` instance,
+│   │           /// allowing for method chaining.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `width` - The maximum desired width for each wrapped list item in characters.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `List` instance with the updated width setting.
+│   │           pub fn width(mut self, width: usize) -> Self {
+│   │               self.width = Some(width);
+│   │               self
+│   │           }
+│   │       
+│   │           /// Prints the formatted list to the console.
+│   │           ///
+│   │           /// Each item is printed on its own line, prefixed by either a bullet
+│   │           /// or a number, and potentially wrapped if a width is set.
+│   │           pub fn print(&self) {
+│   │               for (i, item) in self.items.iter().enumerate() {
+│   │                   let prefix = match &self.bullet {
+│   │                       Some(symbol) => format!("{} ", symbol),
+│   │                       None => format!("{}. ", i + 1),
+│   │                   };
+│   │       
+│   │                   let lines = if let Some(w) = self.width {
+│   │                       // Subtract prefix length from total width for wrapping calculation
+│   │                       wrap_text(item, w.saturating_sub(prefix.len()))
+│   │                   } else {
+│   │                       vec![item.clone()]
+│   │                   };
+│   │       
+│   │                   for (j, line) in lines.iter().enumerate() {
+│   │                       if j == 0 {
+│   │                           // First line gets the prefix
+│   │                           println!("{}{}", prefix, line);
+│   │                       } else {
+│   │                           // Subsequent lines are indented by the prefix length
+│   │                           println!("{}{}", " ".repeat(prefix.len()), line);
+│   │                       }
+│   │                   }
+│   │               }
+│   │           }
+│   │       }
+│   │       --- FILE CONTENT END ---
+│   │   ├── mod.rs
+│   │       --- FILE CONTENT START ---
+│   │       pub mod boxed;
+│   │       pub mod divider;
+│   │       pub mod label;
+│   │       pub mod list;
+│   │       pub mod note;
+│   │       pub mod section;
+│   │       pub mod table;
+│   │       pub mod tag;
+│   │       
+│   │       pub use boxed::Boxed;
+│   │       pub use divider::Divider;
+│   │       pub use label::Label;
+│   │       pub use list::List;
+│   │       pub use section::Section;
+│   │       pub use table::Table;
+│   │       pub use tag::Tag;
+│   │       pub use note::Note;
+│   │       --- FILE CONTENT END ---
+│   │   ├── note.rs
+│   │       --- FILE CONTENT START ---
+│   │       use crate::layout::pad;
+│   │       use ansi_term::{Colour, Style};
+│   │       
+│   │       /// A styled callout block for warnings, tips, and info messages.
+│   │       ///
+│   │       /// The `Note` struct provides a way to display important messages
+│   │       /// in a visually distinct box in the terminal. It supports various
+│   │       /// kinds (info, warning, tip), custom icons, colors, boldness,
+│   │       /// and different border styles.
+│   │       ///
+│   │       /// # Examples
+│   │       ///
+│   │       /// A basic information note:
+│   │       /// ```
+│   │       /// use cliux::components::Note;
+│   │       ///
+│   │       /// Note::new("This is an important piece of information.")
+│   │       ///     .kind("info")
+│   │       ///     .print();
+│   │       /// ```
+│   │       ///
+│   │       /// A warning note with a custom width and square borders:
+│   │       /// ```
+│   │       /// use cliux::components::Note;
+│   │       ///
+│   │       /// Note::new("Be cautious when proceeding with this action.")
+│   │       ///     .kind("warning")
+│   │       ///     .width(60)
+│   │       ///     .style("square")
+│   │       ///     .print();
+│   │       /// ```
+│   │       ///
+│   │       /// A tip with a custom icon and color:
+│   │       /// ```
+│   │       /// use cliux::components::Note;
+│   │       ///
+│   │       /// Note::new("Remember to save your work frequently!")
+│   │       ///     .icon("✨")
+│   │       ///     .color("magenta")
+│   │       ///     .bold(true)
+│   │       ///     .print();
+│   │       /// ```
+│   │       pub struct Note {
+│   │           text: String,
+│   │           icon: Option<String>,
+│   │           color: Option<String>,
+│   │           bold: bool,
+│   │           style: String, // "rounded", "square", "+"
+│   │           width: usize,
+│   │       }
+│   │       
+│   │       impl Note {
+│   │           /// Creates a new `Note` instance with the given text.
+│   │           ///
+│   │           /// By default, the note will have "rounded" borders, a width of 50 characters,
+│   │           /// no specific icon, color, or boldness.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `text` - The main content string for the note.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// A new `Note` instance.
+│   │           pub fn new(text: &str) -> Self {
+│   │               Self {
+│   │                   text: text.to_string(),
+│   │                   icon: None,
+│   │                   color: None,
+│   │                   bold: false,
+│   │                   style: "rounded".to_string(),
+│   │                   width: 50,
+│   │               }
+│   │           }
+│   │       
+│   │           /// Applies a predefined "kind" style to the note.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Note` instance,
+│   │           /// allowing for method chaining. It sets a default icon, color,
+│   │           /// and boldness based on the `kind`.
+│   │           ///
+│   │           /// Supported `kind`s:
+│   │           /// - `"info"`: Sets icon to "ℹ️", color to blue.
+│   │           /// - `"warning"`: Sets icon to "⚠️", color to yellow, and text to bold.
+│   │           /// - `"tip"`: Sets icon to "💡", color to green.
+│   │           ///
+│   │           /// If an unknown `kind` is provided, the note remains unchanged.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `kind` - A string slice representing the predefined style kind.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `Note` instance with the applied kind style.
+│   │           pub fn kind(mut self, kind: &str) -> Self {
+│   │               match kind {
+│   │                   "info" => {
+│   │                       self.icon = Some("ℹ️".to_string());
+│   │                       self.color = Some("blue".to_string());
+│   │                   }
+│   │                   "warning" => {
+│   │                       self.icon = Some("⚠️".to_string());
+│   │                       self.color = Some("yellow".to_string());
+│   │                       self.bold = true;
+│   │                   }
+│   │                   "tip" => {
+│   │                       self.icon = Some("💡".to_string());
+│   │                       self.color = Some("green".to_string());
+│   │                   }
+│   │                   _ => {}
+│   │               }
+│   │               self
+│   │           }
+│   │       
+│   │           /// Sets a custom icon for the note.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Note` instance,
+│   │           /// allowing for method chaining. This will override any icon set by `kind()`.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `icon` - A string slice representing the custom icon (e.g., an emoji like "✨").
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `Note` instance with the updated icon.
+│   │           pub fn icon(mut self, icon: &str) -> Self {
+│   │               self.icon = Some(icon.to_string());
+│   │               self
+│   │           }
+│   │       
+│   │           /// Sets the foreground color of the note's text and icon.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Note` instance,
+│   │           /// allowing for method chaining. Supported colors include "red", "green",
+│   │           /// "yellow", "blue", "magenta" (or "purple"), "cyan", and "white".
+│   │           /// Color names are case-insensitive.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `color` - A string slice representing the desired color name.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `Note` instance with the updated color.
+│   │           pub fn color(mut self, color: &str) -> Self {
+│   │               self.color = Some(color.to_string());
+│   │               self
+│   │           }
+│   │       
+│   │           /// Sets whether the note's text and icon should be bold.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Note` instance,
+│   │           /// allowing for method chaining.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `bold` - A boolean indicating whether the text should be bold (`true`) or not (`false`).
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `Note` instance with the updated bold setting.
+│   │           pub fn bold(mut self, bold: bool) -> Self {
+│   │               self.bold = bold;
+│   │               self
+│   │           }
+│   │       
+│   │           /// Sets the border style for the note.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Note` instance,
+│   │           /// allowing for method chaining.
+│   │           ///
+│   │           /// Supported styles:
+│   │           /// - `"rounded"` (default): Uses `╭╮╰╯─│` characters.
+│   │           /// - `"square"`: Uses `┌┐└┘─│` characters.
+│   │           /// - `"+"`: Uses `++++--||` characters for a simpler ASCII look.
+│   │           ///
+│   │           /// If an unknown style is provided, it defaults to "square" borders.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `style` - A string slice representing the desired border style.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `Note` instance with the updated border style.
+│   │           pub fn style(mut self, style: &str) -> Self {
+│   │               self.style = style.to_string();
+│   │               self
+│   │           }
+│   │       
+│   │           /// Sets the total width of the note box.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Note` instance,
+│   │           /// allowing for method chaining. The content will be padded to fit
+│   │           /// within this width.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `width` - The desired total width of the note box in characters.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `Note` instance with the updated width.
+│   │           pub fn width(mut self, width: usize) -> Self {
+│   │               self.width = width;
+│   │               self
+│   │           }
+│   │       
+│   │           /// Prints the formatted note to the console.
+│   │           ///
+│   │           /// This method constructs the note with its borders, icon, styled text,
+│   │           /// and padding, then prints it to standard output.
+│   │           pub fn print(&self) {
+│   │               let (tl, tr, bl, br, _, v) = get_border(&self.style);
+│   │       
+│   │               // Combine icon and text for content
+│   │               let content = match &self.icon {
+│   │                   Some(icon) => format!("{} {}", icon, self.text),
+│   │                   None => self.text.clone(),
+│   │               };
+│   │       
+│   │               // Build ANSI style for text and icon
+│   │               let mut style = Style::new();
+│   │               if let Some(ref color_name) = self.color {
+│   │                   style = match color_name.as_str() {
+│   │                       "red" => style.fg(Colour::Red),
+│   │                       "green" => style.fg(Colour::Green),
+│   │                       "yellow" => style.fg(Colour::Yellow),
+│   │                       "blue" => style.fg(Colour::Blue),
+│   │                       "purple" | "magenta" => style.fg(Colour::Purple),
+│   │                       "cyan" => style.fg(Colour::Cyan),
+│   │                       "white" => style.fg(Colour::White),
+│   │                       _ => style, // Fallback for unsupported colors
+│   │                   };
+│   │               }
+│   │               if self.bold {
+│   │                   style = style.bold();
+│   │               }
+│   │       
+│   │               // Apply padding and style to the content
+│   │               // Subtract 2 for the vertical borders and two spaces for padding inside
+│   │               let content_width = self.width.saturating_sub(4);
+│   │               let padded_content = pad(&content, content_width);
+│   │               let styled_content = style.paint(padded_content);
+│   │       
+│   │               // Print the note box
+│   │               println!(
+│   │                   "{}{:─<width$}{}",
+│   │                   tl,
+│   │                   "",
+│   │                   tr,
+│   │                   width = self.width.saturating_sub(2)
+│   │               ); // Top border
+│   │               println!("{} {} {}", v, styled_content, v); // Content line
+│   │               println!(
+│   │                   "{}{:─<width$}{}",
+│   │                   bl,
+│   │                   "",
+│   │                   br,
+│   │                   width = self.width.saturating_sub(2)
+│   │               ); // Bottom border
+│   │           }
+│   │       }
+│   │       
+│   │       /// Internal helper function to get border characters based on the specified style.
+│   │       ///
+│   │       /// # Arguments
+│   │       ///
+│   │       /// * `style` - A string slice indicating the desired border style ("rounded", "square", "+").
+│   │       ///
+│   │       /// # Returns
+│   │       ///
+│   │       /// A tuple of string slices representing (top-left, top-right, bottom-left, bottom-right, horizontal, vertical)
+│   │       /// border characters. Defaults to "square" style if an unknown style is provided.
+│   │       fn get_border(style: &str) -> (&str, &str, &str, &str, &str, &str) {
+│   │           match style {
+│   │               "rounded" => ("╭", "╮", "╰", "╯", "─", "│"),
+│   │               "square" => ("┌", "┐", "└", "┘", "─", "│"),
+│   │               "+" => ("+", "+", "+", "+", "-", "|"),
+│   │               _ => ("┌", "┐", "└", "┘", "─", "│"), // Default to square if style is unrecognized
+│   │           }
+│   │       }
+│   │       --- FILE CONTENT END ---
+│   │   ├── section.rs
+│   │       --- FILE CONTENT START ---
+│   │       use crate::layout::{pad, wrap_text};
+│   │       
+│   │       /// A titled block of content, often used for organizing information
+│   │       /// with a preceding title and a divider.
+│   │       ///
+│   │       /// The `Section` struct provides a way to present blocks of text with a clear
+│   │       /// title and an optional horizontal separator. It supports intelligent text
+│   │       /// wrapping to fit content within a specified width.
+│   │       ///
+│   │       /// # Examples
+│   │       ///
+│   │       /// ```
+│   │       /// use cliux::Section;
+│   │       ///
+│   │       /// Section::new("Introduction")
+│   │       ///     .content("This is the beginning of a new section. It can have some introductory text.")
+│   │       ///     .width(60)
+│   │       ///     .print();
+│   │       ///
+│   │       /// Section::new("Long Text Section")
+│   │       ///     .content("This is a very long sentence that needs to be wrapped intelligently across multiple lines so that it fits neatly within the terminal output and doesn't overflow its boundaries.")
+│   │       ///     .width(40)
+│   │       ///     .wrap(true)
+│   │       ///     .style('=')
+│   │       ///     .print();
+│   │       /// ```
+│   │       pub struct Section {
+│   │           title: String,
+│   │           content: String,
+│   │           width: usize,
+│   │           style: char,
+│   │           wrap: bool,
+│   │       }
+│   │       
+│   │       impl Section {
+│   │           /// Creates a new `Section` instance with the given title.
+│   │           ///
+│   │           /// By default, the section will have no content, a width of 50 characters,
+│   │           /// a default divider style of `'─'`, and text wrapping disabled.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `title` - The title of the section.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// A new `Section` instance.
+│   │           pub fn new(title: &str) -> Self {
+│   │               Self {
+│   │                   title: title.to_string(),
+│   │                   content: String::new(),
+│   │                   width: 50,
+│   │                   style: '─',
+│   │                   wrap: false,
+│   │               }
+│   │           }
+│   │       
+│   │           /// Sets the main content of the section.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Section` instance,
+│   │           /// allowing for method chaining. Newline characters (`\n`) in the content
+│   │           /// will create new paragraphs or line breaks within the section.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `text` - The string slice containing the content for the section.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `Section` instance with the updated content.
+│   │           pub fn content(mut self, text: &str) -> Self {
+│   │               self.content = text.to_string();
+│   │               self
+│   │           }
+│   │       
+│   │           /// Sets the total width of the section's content and divider.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Section` instance,
+│   │           /// allowing for method chaining. The content will be padded or wrapped
+│   │           /// to fit this width.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `width` - The desired total width of the section in characters.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `Section` instance with the updated width.
+│   │           pub fn width(mut self, width: usize) -> Self {
+│   │               self.width = width;
+│   │               self
+│   │           }
+│   │       
+│   │           /// Sets the character used for the horizontal divider within the section.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Section` instance,
+│   │           /// allowing for method chaining.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `style` - The character to use for the divider (e.g., `'='`, `'-'`, `'*'`).
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `Section` instance with the updated style.
+│   │           pub fn style(mut self, style: char) -> Self {
+│   │               self.style = style;
+│   │               self
+│   │           }
+│   │       
+│   │           /// Enables or disables intelligent text wrapping for the content within the section.
+│   │           ///
+│   │           /// If `true`, long lines of content will be wrapped to fit the specified `width`
+│   │           /// at word boundaries. If `false` (default), lines will only break at explicit
+│   │           /// newline characters (`\n`).
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Section` instance,
+│   │           /// allowing for method chaining.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `wrap` - A boolean indicating whether to enable (`true`) or disable (`false`) text wrapping.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `Section` instance with the updated wrap setting.
+│   │           pub fn wrap(mut self, wrap: bool) -> Self {
+│   │               self.wrap = wrap;
+│   │               self
+│   │           }
+│   │       
+│   │           /// Prints the `Section` to the console.
+│   │           ///
+│   │           /// This method renders the section, including its title, a horizontal
+│   │           /// divider, and its content (with optional wrapping and padding),
+│   │           /// to standard output.
+│   │           pub fn print(&self) {
+│   │               println!("{}:", self.title);
+│   │               println!("{}", self.style.to_string().repeat(self.width));
+│   │               let lines = if self.wrap {
+│   │                   wrap_text(&self.content, self.width)
+│   │               } else {
+│   │                   self.content.lines().map(|l| l.to_string()).collect()
+│   │               };
+│   │       
+│   │               for line in lines {
+│   │                   println!("{}", pad(&line, self.width));
+│   │               }
+│   │           }
+│   │       }
+│   │       --- FILE CONTENT END ---
+│   │   ├── table.rs
+│   │       --- FILE CONTENT START ---
+│   │       use crate::layout::pad;
+│   │       
+│   │       /// A component for displaying tabular data in the terminal.
+│   │       ///
+│   │       /// The `Table` struct allows you to present data in a structured,
+│   │       /// grid-like format with optional headers and borders. It supports
+│   │       /// defining column widths and automatically handles text padding
+│   │       /// within cells.
+│   │       ///
+│   │       /// # Examples
+│   │       ///
+│   │       /// Basic table with headers and borders:
+│   │       /// ```
+│   │       /// use cliux::components::Table;
+│   │       ///
+│   │       /// Table::new()
+│   │       ///     .headers(&["Name", "Age", "City"])
+│   │       ///     .row(&["Alice", "30", "New York"])
+│   │       ///     .row(&["Bob", "24", "Los Angeles"])
+│   │       ///     .print();
+│   │       /// ```
+│   │       ///
+│   │       /// Table without borders and custom column widths:
+│   │       /// ```
+│   │       /// use cliux::components::Table;
+│   │       ///
+│   │       /// Table::new()
+│   │       ///     .headers(&["Product", "Price", "Availability"])
+│   │       ///     .row(&["Laptop", "$1200", "In Stock"])
+│   │       ///     .row(&["Mouse", "$25", "Low"])
+│   │       ///     .bordered(false)
+│   │       ///     .widths(&[15, 10, 15])
+│   │       ///     .print();
+│   │       /// ```
+│   │       ///
+│   │       /// Table with multi-line content (requires `widths` to be set to enable wrapping within `print`):
+│   │       /// ```
+│   │       /// use cliux::components::Table;
+│   │       ///
+│   │       /// Table::new()
+│   │       ///     .headers(&["Task", "Description"])
+│   │       ///     .row(&[
+│   │       ///         "Prepare report",
+│   │       ///         "Gather all data, analyze, and draft the executive summary by end of day."
+│   │       ///     ])
+│   │       ///     .row(&[
+│   │       ///         "Review code",
+│   │       ///         "Check for bugs, performance issues, and adherence to coding standards."
+│   │       ///     ])
+│   │       ///     .widths(&[20, 50])
+│   │       ///     .print();
+│   │       /// ```
+│   │       pub struct Table {
+│   │           headers: Option<Vec<String>>,
+│   │           rows: Vec<Vec<String>>,
+│   │           bordered: bool,
+│   │           widths: Option<Vec<usize>>,
+│   │       }
+│   │       
+│   │       impl Table {
+│   │           /// Creates a new, empty `Table` instance.
+│   │           ///
+│   │           /// By default, the table will have no headers or rows,
+│   │           /// will be bordered, and will auto-calculate column widths
+│   │           /// based on content if not explicitly set.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// A new `Table` instance.
+│   │           pub fn new() -> Self {
+│   │               Self {
+│   │                   headers: None,
+│   │                   rows: Vec::new(),
+│   │                   bordered: true,
+│   │                   widths: None,
+│   │               }
+│   │           }
+│   │       
+│   │           /// Sets the headers for the table.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Table` instance,
+│   │           /// allowing for method chaining. The number of headers defines the
+│   │           /// number of columns in the table.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `headers` - A slice of string slices, where each slice is a column header.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `Table` instance with the updated headers.
+│   │           pub fn headers(mut self, headers: &[&str]) -> Self {
+│   │               self.headers = Some(headers.iter().map(|s| s.to_string()).collect());
+│   │               self
+│   │           }
+│   │       
+│   │           /// Adds a new row to the table.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Table` instance,
+│   │           /// allowing for method chaining. Each `row` call adds one row.
+│   │           /// It's expected that the number of cells in each row matches
+│   │           /// the number of headers (or the first row's length if no headers).
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `row` - A slice of string slices, where each slice is a cell in the row.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `Table` instance with the new row added.
+│   │           pub fn row(mut self, row: &[&str]) -> Self {
+│   │               self.rows.push(row.iter().map(|s| s.to_string()).collect());
+│   │               self
+│   │           }
+│   │       
+│   │           /// Sets whether the table should be drawn with borders.
+│   │           ///
+│   │           /// By default, tables are bordered. Setting this to `false` will
+│   │           /// remove the surrounding and internal borders.
+│   │           /// This method consumes `self` and returns a new `Table` instance,
+│   │           /// allowing for method chaining.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `bordered` - A boolean indicating whether to draw borders (`true`) or not (`false`).
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `Table` instance with the updated border setting.
+│   │           pub fn bordered(mut self, bordered: bool) -> Self {
+│   │               self.bordered = bordered;
+│   │               self
+│   │           }
+│   │       
+│   │           /// Sets custom widths for each column.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Table` instance,
+│   │           /// allowing for method chaining. The number of elements in `widths`
+│   │           /// should match the number of columns in the table. If content
+│   │           /// exceeds a column's width, it will be wrapped.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `widths` - A slice of `usize` values, where each value is the desired
+│   │           ///   width for the corresponding column.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `Table` instance with the custom column widths set.
+│   │           pub fn widths(mut self, widths: &[usize]) -> Self {
+│   │               self.widths = Some(widths.to_vec());
+│   │               self
+│   │           }
+│   │       
+│   │           /// Prints the formatted table to the console.
+│   │           ///
+│   │           /// This method constructs the table based on the configured headers,
+│   │           /// rows, border setting, and column widths, then prints it to
+│   │           /// standard output. Content will be padded or wrapped according to `widths`.
+│   │           pub fn print(&self) {
+│   │               let col_count = self
+│   │                   .headers
+│   │                   .as_ref()
+│   │                   .map_or_else(|| self.rows.first().map_or(0, |r| r.len()), |h| h.len());
+│   │       
+│   │               // Auto-calculate column widths
+│   │               let widths = self.widths.clone().unwrap_or_else(|| {
+│   │                   let mut max_widths = vec![0; col_count];
+│   │                   if let Some(ref headers) = self.headers {
+│   │                       for (i, h) in headers.iter().enumerate() {
+│   │                           max_widths[i] = max_widths[i].max(h.len());
+│   │                       }
+│   │                   }
+│   │                   for row in &self.rows {
+│   │                       for (i, cell) in row.iter().enumerate() {
+│   │                           max_widths[i] = max_widths[i].max(cell.len());
+│   │                       }
+│   │                   }
+│   │                   max_widths.iter().map(|w| w + 2).collect() // add padding
+│   │               });
+│   │       
+│   │               let draw_border = || {
+│   │                   if self.bordered {
+│   │                       print!("+");
+│   │                       for w in &widths {
+│   │                           print!("{:-<1$}+", "", *w);
+│   │                       }
+│   │                       println!();
+│   │                   }
+│   │               };
+│   │       
+│   │               let draw_row = |row: &[String]| {
+│   │                   if self.bordered {
+│   │                       print!("|");
+│   │                   }
+│   │                   for (i, cell) in row.iter().enumerate() {
+│   │                       let padded = pad(cell, widths[i] - 2);
+│   │                       print!(" {} ", padded);
+│   │                       if self.bordered {
+│   │                           print!("|");
+│   │                       } else if i < row.len() - 1 {
+│   │                           print!(" ");
+│   │                       }
+│   │                   }
+│   │                   println!();
+│   │               };
+│   │       
+│   │               if let Some(ref headers) = self.headers {
+│   │                   draw_border();
+│   │                   draw_row(headers);
+│   │                   draw_border();
+│   │               }
+│   │       
+│   │               for row in &self.rows {
+│   │                   draw_row(row);
+│   │               }
+│   │       
+│   │               if self.bordered {
+│   │                   draw_border();
+│   │               }
+│   │           }
+│   │       }
+│   │       --- FILE CONTENT END ---
+│   │   └── tag.rs
+│   │       --- FILE CONTENT START ---
+│   │       /// A component for displaying styled text tags in the terminal.
+│   │       ///
+│   │       /// The `Tag` struct allows you to create short, enclosed text snippets
+│   │       /// with customizable wrappers (e.g., square brackets, parentheses, curly braces),
+│   │       /// color, and boldness. Tags are useful for categorization, status indicators,
+│   │       /// or drawing attention to specific keywords.
+│   │       ///
+│   │       /// # Examples
+│   │       ///
+│   │       /// Basic usage with default square brackets:
+│   │       /// ```
+│   │       /// use cliux::components::Tag;
+│   │       ///
+│   │       /// Tag::new("ALPHA").color("red").bold(true).print();
+│   │       /// ```
+│   │       ///
+│   │       /// Using rounded wrappers:
+│   │       /// ```
+│   │       /// use cliux::components::Tag;
+│   │       ///
+│   │       /// Tag::new("BETA").rounded().color("blue").print();
+│   │       /// ```
+│   │       ///
+│   │       /// Using curly wrappers:
+│   │       /// ```
+│   │       /// use cliux::components::Tag;
+│   │       ///
+│   │       /// Tag::new("STABLE").curly().color("green").print();
+│   │       /// ```
+│   │       ///
+│   │       /// Getting an inline string tag:
+│   │       /// ```
+│   │       /// use cliux::components::Tag;
+│   │       ///
+│   │       /// let feature_tag = Tag::new("NEW").color("cyan").inline();
+│   │       /// println!("{} This is a new feature!", feature_tag);
+│   │       /// ```
+│   │       pub struct Tag {
+│   │           text: String,
+│   │           wrapper: (String, String), // e.g. ("(", ")")
+│   │           color: Option<String>,
+│   │           bold: bool,
+│   │       }
+│   │       
+│   │       impl Tag {
+│   │           /// Creates a new `Tag` instance with the specified text.
+│   │           ///
+│   │           /// By default, the tag will be enclosed in square brackets `[]`,
+│   │           /// will have no specific color, and will not be bold.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `text` - The string slice to be displayed as the tag's text.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// A new `Tag` instance.
+│   │           pub fn new(text: &str) -> Self {
+│   │               Self {
+│   │                   text: text.to_string(),
+│   │                   wrapper: ("[".to_string(), "]".to_string()),
+│   │                   color: None,
+│   │                   bold: false,
+│   │               }
+│   │           }
+│   │       
+│   │           /// Sets the tag's wrappers to rounded parentheses `()`.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Tag` instance,
+│   │           /// allowing for method chaining.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `Tag` instance with rounded wrappers.
+│   │           pub fn rounded(mut self) -> Self {
+│   │               self.wrapper = ("(".to_string(), ")".to_string());
+│   │               self
+│   │           }
+│   │       
+│   │           /// Sets the tag's wrappers to curly braces `{}`.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Tag` instance,
+│   │           /// allowing for method chaining.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `Tag` instance with curly braces wrappers.
+│   │           pub fn curly(mut self) -> Self {
+│   │               self.wrapper = ("{".to_string(), "}".to_string());
+│   │               self
+│   │           }
+│   │       
+│   │           /// Sets the color of the tag's text.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Tag` instance,
+│   │           /// allowing for method chaining. Supported colors are parsed by
+│   │           /// `super::label::parse_colour`. If an unsupported color name
+│   │           /// is provided, the color will not be applied.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `color` - A string slice representing the desired color name
+│   │           ///   (e.g., "red", "blue", "green").
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `Tag` instance with the updated color.
+│   │           pub fn color(mut self, color: &str) -> Self {
+│   │               self.color = Some(color.to_string());
+│   │               self
+│   │           }
+│   │       
+│   │           /// Sets whether the tag's text should be bold.
+│   │           ///
+│   │           /// This method consumes `self` and returns a new `Tag` instance,
+│   │           /// allowing for method chaining.
+│   │           ///
+│   │           /// # Arguments
+│   │           ///
+│   │           /// * `bold` - A boolean indicating whether the text should be bold (`true`) or not (`false`).
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// The `Tag` instance with the updated bold setting.
+│   │           pub fn bold(mut self, bold: bool) -> Self {
+│   │               self.bold = bold;
+│   │               self
+│   │           }
+│   │       
+│   │           /// Returns the styled tag as a `String`, including its wrappers.
+│   │           ///
+│   │           /// This method formats the tag's text with the applied color and bold settings,
+│   │           /// enclosed within its chosen wrappers, and returns it as a `String`.
+│   │           /// This is useful for embedding the tag within other `println!` statements or strings.
+│   │           ///
+│   │           /// # Returns
+│   │           ///
+│   │           /// A `String` containing the styled tag with ANSI escape codes.
+│   │           pub fn inline(&self) -> String {
+│   │               use ansi_term::Style;
+│   │       
+│   │               let mut style = Style::new();
+│   │               if let Some(ref color) = self.color {
+│   │                   if let Some(colour) = super::label::parse_colour(color) {
+│   │                       style = style.fg(colour);
+│   │                   }
+│   │               }
+│   │               if self.bold {
+│   │                   style = style.bold();
+│   │               }
+│   │       
+│   │               style
+│   │                   .paint(format!("{}{}{}", self.wrapper.0, self.text, self.wrapper.1))
+│   │                   .to_string()
+│   │           }
+│   │       
+│   │           /// Prints the styled tag to the console, including its wrappers.
+│   │           ///
+│   │           /// This method formats the tag's text with the applied color and bold settings
+│   │           /// and prints it to standard output, e.g., `[TAG TEXT]`.
+│   │           pub fn print(&self) {
+│   │               println!("{}", self.inline());
+│   │           }
+│   │       }
+│   │       --- FILE CONTENT END ---
+│   ├── layout.rs
+│       --- FILE CONTENT START ---
+│       use unicode_segmentation::UnicodeSegmentation;
+│       use unicode_width::UnicodeWidthStr;
+│       
+│       /// Pads the given `text` with spaces on the right to reach the specified `width`.
+│       ///
+│       /// This function is Unicode-aware, correctly handling multi-byte characters like emojis
+│       /// by considering their display width rather than byte length.
+│       ///
+│       /// # Arguments
+│       ///
+│       /// * `text` - The string slice to pad.
+│       /// * `width` - The desired total width of the padded string.
+│       ///
+│       /// # Returns
+│       ///
+│       /// A `String` containing the original text padded to the specified width.
+│       ///
+│       /// # Examples
+│       ///
+│       /// ```
+│       /// use cliux::layout::pad;
+│       /// assert_eq!(pad("Hello", 10), "Hello     ");
+│       /// assert_eq!(pad("👋", 5), "👋   "); // Assuming emoji width 2
+│       /// assert_eq!(pad("Rust", 3), "Rust"); // No padding if width is less than or equal to text width
+│       /// ```
+│       pub fn pad(text: &str, width: usize) -> String {
+│           let graphemes = UnicodeSegmentation::graphemes(text, true);
+│           let mut display_width = 0;
+│       
+│           for g in graphemes {
+│               let w = g.width();
+│               let adjusted = if is_emoji(g) && w == 1 { 2 } else { w };
+│               display_width += adjusted;
+│           }
+│       
+│           let padding = width.saturating_sub(display_width);
+│           format!("{}{}", text, " ".repeat(padding))
+│       }
+│       
+│       fn is_emoji(g: &str) -> bool {
+│           g.chars().any(|c| {
+│               let code = c as u32;
+│               (code >= 0x1F300 && code <= 0x1FAFF) || (code >= 0x2600 && code <= 0x26FF)
+│           })
+│       }
+│       
+│       /// Wraps the given `text` into a vector of strings, ensuring that each line
+│       /// does not exceed the specified `width`.
+│       ///
+│       /// The wrapping is done intelligently, breaking at word boundaries.
+│       /// Paragraphs are maintained by processing `text` line by line.
+│       ///
+│       /// # Arguments
+│       ///
+│       /// * `text` - The string slice to wrap.
+│       /// * `width` - The maximum desired width for each wrapped line.
+│       ///
+│       /// # Returns
+│       ///
+│       /// A `Vec<String>` where each element is a wrapped line of the original text.
+│       ///
+│       /// # Examples
+│       ///
+│       /// ```
+│       /// use cliux::layout::wrap_text;
+│       /// let long_text = "This is a very long sentence that needs to be wrapped.";
+│       /// let wrapped_lines = wrap_text(long_text, 20);
+│       /// assert_eq!(wrapped_lines, vec![
+│       ///     "This is a very",
+│       ///     "long sentence that",
+│       ///     "needs to be wrapped."
+│       /// ]);
+│       ///
+│       /// let paragraph_text = "First paragraph.\nSecond paragraph is a bit longer and needs wrapping.";
+│       /// let wrapped_paragraphs = wrap_text(paragraph_text, 25);
+│       /// assert_eq!(wrapped_paragraphs, vec![
+│       ///     "First paragraph.",
+│       ///     "Second paragraph is a",
+│       ///     "bit longer and needs",
+│       ///     "wrapping."
+│       /// ]);
+│       /// ```
+│       pub fn wrap_text(text: &str, width: usize) -> Vec<String> {
+│           let mut lines = Vec::new();
+│           for paragraph in text.lines() {
+│               let mut current = String::new();
+│               for word in paragraph.split_whitespace() {
+│                   if current.len() + word.len() + 1 > width {
+│                       lines.push(current.trim_end().to_string());
+│                       current.clear();
+│                   }
+│                   current.push_str(word);
+│                   current.push(' ');
+│               }
+│               if !current.is_empty() {
+│                   lines.push(current.trim_end().to_string());
+│               }
+│           }
+│           lines
+│       }
+│       --- FILE CONTENT END ---
+│   └── lib.rs
+│       --- FILE CONTENT START ---
+│       //! # cliux
+│       //!
+│       //! `cliux` is a lightweight Rust crate for formatting terminal output with clean, readable components — no TUI required.
+│       //! It helps CLI tools present information with structure and style using boxes, sections, dividers, and smart padding.
+│       
+│       pub mod components;
+│       pub mod layout;
+│       
+│       /// Re-exports the `Boxed` struct from the `components` module.
+│       pub use components::Boxed;
+│       /// Re-exports the `Divider` struct from the `components` module.
+│       pub use components::Divider;
+│       /// Re-exports the `Label` struct from the `components` module.
+│       pub use components::Label;
+│       /// Re-exports the `List` struct from the `components` module.
+│       pub use components::List;
+│       /// Re-exports the `Note` struct from the `components` module.
+│       pub use components::Note;
+│       /// Re-exports the `Section` struct from the `components` module.
+│       pub use components::Section;
+│       /// Re-exports the `Table` struct from the `components` module.
+│       pub use components::Table;
+│       /// Re-exports the `Tag` struct from the `components` module.
+│       pub use components::Tag;
+│       --- FILE CONTENT END ---
+├── .gitignore
+    --- FILE CONTENT START ---
+    /target
+    --- FILE CONTENT END ---
+├── Cargo.lock
+    --- FILE CONTENT START ---
+    # This file is automatically @generated by Cargo.
+    # It is not intended for manual editing.
+    version = 4
+    
+    [[package]]
+    name = "ansi_term"
+    version = "0.12.1"
+    source = "registry+https://github.com/rust-lang/crates.io-index"
+    checksum = "d52a9bb7ec0cf484c551830a7ce27bd20d67eac647e1befb56b0be4ee39a55d2"
+    dependencies = [
+     "winapi",
+    ]
+    
+    [[package]]
+    name = "cliux"
+    version = "0.4.1"
+    dependencies = [
+     "ansi_term",
+     "unicode-segmentation",
+     "unicode-width",
+    ]
+    
+    [[package]]
+    name = "unicode-segmentation"
+    version = "1.12.0"
+    source = "registry+https://github.com/rust-lang/crates.io-index"
+    checksum = "f6ccf251212114b54433ec949fd6a7841275f9ada20dddd2f29e9ceea4501493"
+    
+    [[package]]
+    name = "unicode-width"
+    version = "0.1.14"
+    source = "registry+https://github.com/rust-lang/crates.io-index"
+    checksum = "7dd6e30e90baa6f72411720665d41d89b9a3d039dc45b8faea1ddd07f617f6af"
+    
+    [[package]]
+    name = "winapi"
+    version = "0.3.9"
+    source = "registry+https://github.com/rust-lang/crates.io-index"
+    checksum = "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419"
+    dependencies = [
+     "winapi-i686-pc-windows-gnu",
+     "winapi-x86_64-pc-windows-gnu",
+    ]
+    
+    [[package]]
+    name = "winapi-i686-pc-windows-gnu"
+    version = "0.4.0"
+    source = "registry+https://github.com/rust-lang/crates.io-index"
+    checksum = "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6"
+    
+    [[package]]
+    name = "winapi-x86_64-pc-windows-gnu"
+    version = "0.4.0"
+    source = "registry+https://github.com/rust-lang/crates.io-index"
+    checksum = "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f"
+    --- FILE CONTENT END ---
+├── Cargo.toml
+    --- FILE CONTENT START ---
+    [package]
+    name = "cliux"
+    version = "0.4.1"
+    edition = "2024"
+    license = "MIT"
+    authors = ["Pjdur"]
+    repository = "https://github.com/Pjdur/cliux"
+    description = "Styled terminal output made simple — boxes, sections, dividers, and emoji-aware padding for CLI tools."
+    keywords = ["cli", "terminal", "output"]
+    categories = ["command-line-interface", "text-processing"]
+    
+    [dependencies]
+    ansi_term = "0.12.1"
+    unicode-segmentation = "1.10"
+    unicode-width = "0.1"
+    --- FILE CONTENT END ---
+├── CHANGELOG.md
+    --- FILE CONTENT START ---
+    # Changelog
+    
+    All notable changes to this project will be documented here.
+    
+    ## [v0.4.1] – 2025-11-05
+    
+    ### New Components
+    
+    - **`Table`**: Render structured rows and columns with optional headers, borders, and custom widths.
+      - Supports auto-width calculation, clean ASCII framing, and padded alignment.
+      - Example: `Table::new().headers(...).row(...).print();`
+    
+    - **`Note`**: Display styled callouts for tips, warnings, and info blocks.
+      - Supports border styles: `"rounded"`, `"square"`, and `"+"`.
+      - Optional emoji icons, color, and width control.
+      - Example: `Note::new("Be careful").icon("⚠️").style("rounded").print();`
+    
+    ### Unicode Caveat
+    
+    - Emoji rendering may vary across terminals. While `cliux` accounts for grapheme width, some emojis (e.g. `⚠️`) may appear misaligned due to terminal font behavior.
+      - Use monospace-safe symbols (`!`, `*`, `i`) if alignment is critical.
+      - This issue is cosmetic only and does not affect functionality.
+    
+    ### Fixed
+    
+    - Remove unnecessary `numbered` bool from `List` component.
+    
+    ## [0.3.0] - 2025-11-04
+    
+    ### Added
+    - `Tag` component for inline status markers with customizable wrappers and colors
+    - `List` component for bullet-pointed or numbered lists with optional wrapping
+    - Demo GIFs for `Tag` and `List`
+    - Examples for `tag.rs` and `list.rs`
+    
+    ### Improved
+    - All examples now use root-level imports (`use cliux::...`)
+    - README updated with new components and visuals
+    
+    ## [0.2.0] - 2025-11-01
+    
+    ### Added
+    - `Label` component with `.style()`, `.color()`, `.bold()`, and `.inline()`
+    - `examples/label.rs` and demo GIF
+    - README section for `Label`
+    
+    ### Improved
+    - Internal docs and examples
+    
+    ## [0.1.3] - 2025-10-31
+    
+    - Added inline documentation for all public methods and properties
+    - Improved contributor onboarding with `CONTRIBUTING.md`
+    - Updated changelog and published docs to docs.rs
+    
+    ## [0.1.2] - 2025-10-30
+    ### Added
+    - `.wrap()` support for `Section`
+    - Animated GIF demos for `Boxed`, `Section`, and `Divider`
+    
+    ### Improved
+    - README examples and visuals
+    
+    ## [0.1.1] - 2025-10-30
+    ### Added
+    - `.style()` method for `Section` for custom divider characters
+    
+    ## [0.1.0] - 2025-10-30
+    Initial release
+    --- FILE CONTENT END ---
+├── CONTRIBUTING.md
+    --- FILE CONTENT START ---
+    # Contributing to cliux
+    
+    Thanks for your interest in contributing!
+    
+    ## Getting Started
+    
+    1. Clone the repo and run examples in `/examples`
+    2. Use `cargo test` to run unit tests
+    3. Use `cargo doc --open` to preview documentation
+    
+    ## Suggestions Welcome
+    
+    Feel free to open issues for:
+    - New components (e.g. Label, Table)
+    - Styling features (e.g. color support)
+    - Layout improvements or edge cases
+    
+    ## Code Style
+    
+    - Use idiomatic Rust
+    - Document public APIs with `///` comments
+    - Keep components focused and composable
+    
+    Pull requests are welcome!
+    --- FILE CONTENT END ---
+├── LICENSE
+    --- FILE CONTENT START ---
+    Copyright 2025 Pjdur
+    
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+    
+    The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    --- FILE CONTENT END ---
+└── README.md
+    --- FILE CONTENT START ---
+    # cliux
+    
+    **Styled terminal output made simple.**
+    
+    `cliux` is a lightweight Rust crate for formatting terminal output with clean, readable components — no TUI required. It helps CLI tools present information with structure and style using boxes, sections, dividers, lists, tags, and smart padding.
+    
+    ## ✨ Features
+    
+    - `Boxed` — bordered containers with titles and content
+    - `Section` — titled blocks with horizontal dividers
+    - `Divider` — customizable horizontal lines
+    - `List` — bullet-pointed lists with customizable styles
+    - `Tag` — colored tags with customizable styles
+    - `Padding` — Unicode-aware padding (emoji-safe)
+    
+    ## Examples
+    
+    ### Boxed
+    
+    ```rust
+    use cliux::Boxed;
+    
+    fn main() {
+        Boxed::new("Cliux Boxed")
+            .content("This code uses the cliux library to create a boxed section.")
+            .width(61)
+            .print();
+    }
+    ```
+    
+    ### Label
+    
+    ```rust
+    use cliux::Label;
+    
+    fn main() {
+        Label::new("INFO").style("info").print();
+        Label::new("✓ Done").style("success").print();
+        Label::new("ERROR").style("error").print();
+    }
+    ```
+    ### Section
+    
+    ```rust
+    use cliux::Section;
+    
+    fn main() {
+        Section::new("Wrapped Section")
+            .content("This is a long sentence that will be wrapped intelligently across multiple lines.")
+            .width(40)
+            .wrap(true)
+            .style('─')
+            .print();
+    }
+    ```
+    
+    ### Divider
+    
+    ```rust
+    use cliux::Divider;
+    
+    fn main() {
+        Divider::new(30).style('=').print();
+    }
+    ```
+    
+    ### List
+    
+    ```rust
+    use cliux::List;
+    
+    fn main() {
+        List::new(vec!["First item", "Second item", "Third item"])
+            .bullet("*")
+            .width(40)
+            .print();
+    
+        List::new(vec!["One", "Two", "Three"])
+            .numbered()
+            .print();
+    }
+    ```
+    
+    ### Tag
+    
+    ```rust
+    use cliux::Tag;
+    
+    fn main() {
+        Tag::new("beta").rounded().color("yellow").bold(true).print();
+        Tag::new("admin").curly().color("red").print();
+        Tag::new("draft").print();
+    }
+    ```
+    
+    ### Table
+    
+    ```rust
+    use cliux::Table;
+    
+    fn main() {
+        Table::new()
+            .headers(&["Name", "Status"])
+            .row(&["cliux", "active"])
+            .row(&["other", "pending"])
+            .widths(&[20, 10])
+            .bordered(true)
+            .print();
+    }
+    ```
+    
+    ### Note
+    
+    ```rust
+    use cliux::Note;
+    
+    fn main() {
+        Note::new("Be careful with this setting.")
+            .kind("warning")
+            .style("rounded")
+            .width(40)
+            .print();
+    
+        Note::new("Tip: You can use --force here.")
+            .kind("info")
+            .style("+")
+            .width(40)
+            .print();
+    }
+    ```
+    
+    ## 📚 Usage
+    
+    Add to your `Cargo.toml`:
+    
+    ```toml
+    cliux = "0.3.0"
+    ```
+    
+    ## Screenshots
+    
+    ### Boxed
+    
+    ![Boxed](assets/boxed.gif)
+    
+    ### Label
+    
+    ![Label](assets/label.gif)
+    
+    ### Section
+    
+    ![Section](assets/section.gif)
+    
+    ### Divider
+    
+    ![Divider](assets/divider.gif)
+    
+    ### List
+    
+    ![List](assets/list.gif)
+    
+    ### Tag
+    
+    ![Tag](assets/tag.gif)
+    
+    ### Table
+    
+    ![Table](assets/table.gif)
+    
+    ### Note
+    
+    ![Note](assets/note.gif)
+    
+    ## 🚧 Status
+    
+    This is an early release. Components and layout may evolve. Contributions and feedback welcome!
+    --- FILE CONTENT END ---

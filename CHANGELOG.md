@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented here.
 
+## [v0.4.1] – 2025-11-05
+
+### New Components
+
+- **`Table`**: Render structured rows and columns with optional headers, borders, and custom widths.
+  - Supports auto-width calculation, clean ASCII framing, and padded alignment.
+  - Example: `Table::new().headers(...).row(...).print();`
+
+- **`Note`**: Display styled callouts for tips, warnings, and info blocks.
+  - Supports border styles: `"rounded"`, `"square"`, and `"+"`.
+  - Optional emoji icons, color, and width control.
+  - Example: `Note::new("Be careful").icon("⚠️").style("rounded").print();`
+
+### Unicode Caveat
+
+- Emoji rendering may vary across terminals. While `cliux` accounts for grapheme width, some emojis (e.g. `⚠️`) may appear misaligned due to terminal font behavior.
+  - Use monospace-safe symbols (`!`, `*`, `i`) if alignment is critical.
+  - This issue is cosmetic only and does not affect functionality.
+
+### Fixed
+
+- Refactored `List` component to remove the redundant `numbered` field.
+  - Numbering is now inferred from `bullet = None`, simplifying internal state and reducing ambiguity.
+  - This change improves API clarity without affecting external behavior.
+
 ## [0.3.0] - 2025-11-04
 
 ### Added

@@ -28,10 +28,6 @@ fn main() {
 }
 ```
 
-### Boxed
-
-![Boxed](assets/boxed.gif)
-
 ### Label
 
 ```rust
@@ -68,6 +64,71 @@ fn main() {
 }
 ```
 
+### List
+
+```rust
+use cliux::List;
+
+fn main() {
+    List::new(vec!["First item", "Second item", "Third item"])
+        .bullet("*")
+        .width(40)
+        .print();
+
+    List::new(vec!["One", "Two", "Three"])
+        .numbered()
+        .print();
+}
+```
+
+### Tag
+
+```rust
+use cliux::Tag;
+
+fn main() {
+    Tag::new("beta").rounded().color("yellow").bold(true).print();
+    Tag::new("admin").curly().color("red").print();
+    Tag::new("draft").print();
+}
+```
+
+### Table
+
+```rust
+use cliux::Table;
+
+fn main() {
+    Table::new()
+        .headers(&["Name", "Status"])
+        .row(&["cliux", "active"])
+        .row(&["other", "pending"])
+        .widths(&[20, 10])
+        .bordered(true)
+        .print();
+}
+```
+
+### Note
+
+```rust
+use cliux::Note;
+
+fn main() {
+    Note::new("Be careful with this setting.")
+        .kind("warning")
+        .style("rounded")
+        .width(40)
+        .print();
+
+    Note::new("Tip: You can use --force here.")
+        .kind("info")
+        .style("+")
+        .width(40)
+        .print();
+}
+```
+
 ## 📚 Usage
 
 Add to your `Cargo.toml`:
@@ -101,6 +162,14 @@ cliux = "0.3.0"
 ### Tag
 
 ![Tag](assets/tag.gif)
+
+### Table
+
+![Table](assets/table.gif)
+
+### Note
+
+![Note](assets/note.gif)
 
 ## 🚧 Status
 

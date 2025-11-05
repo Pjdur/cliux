@@ -37,7 +37,6 @@ use crate::layout::wrap_text;
 pub struct List {
     items: Vec<String>,
     bullet: Option<String>,
-    numbered: bool,
     width: Option<usize>,
 }
 
@@ -59,7 +58,6 @@ impl List {
         Self {
             items: items.into_iter().map(|s| s.to_string()).collect(),
             bullet: Some("•".to_string()),
-            numbered: false,
             width: None,
         }
     }
@@ -78,7 +76,6 @@ impl List {
     /// The `List` instance with the updated bullet symbol.
     pub fn bullet(mut self, symbol: &str) -> Self {
         self.bullet = Some(symbol.to_string());
-        self.numbered = false;
         self
     }
 
@@ -92,7 +89,6 @@ impl List {
     /// The `List` instance configured for numbering.
     pub fn numbered(mut self) -> Self {
         self.bullet = None;
-        self.numbered = true;
         self
     }
 
@@ -122,10 +118,9 @@ impl List {
     /// or a number, and potentially wrapped if a width is set.
     pub fn print(&self) {
         for (i, item) in self.items.iter().enumerate() {
-            let prefix = if self.numbered {
-                format!("{}. ", i + 1)
-            } else {
-                format!("{} ", self.bullet.as_deref().unwrap_or("•"))
+            let prefix = match &self.bullet {
+                Some(symbol) => format!("{} ", symbol),
+                None => format!("{}. ", i + 1),
             };
 
             let lines = if let Some(w) = self.width {
