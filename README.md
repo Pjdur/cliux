@@ -12,6 +12,8 @@
 - `List` — bullet-pointed lists with customizable styles
 - `Tag` — colored tags with customizable styles
 - `Padding` — Unicode-aware padding (emoji-safe)
+- `Input` — interactive input fields with customizable styles
+- `Confirm` — interactive confirmation prompts with customizable styles
 
 ## Examples
 
@@ -129,12 +131,52 @@ fn main() {
 }
 ```
 
+### Input
+
+```rust
+use cliux::Input;
+
+fn main() {
+    let name = Input::new("What's your name?")
+        .default("Anonymous")
+        .bold(true)
+        .color("cyan")
+        .style("rounded")
+        .width(40)
+        .prompt();
+
+    println!("Hello, {}!", name);
+}
+```
+
+### Confirm
+
+```rust
+use cliux::Confirm;
+
+fn main() {
+    let confirmed = Confirm::new("Delete file?")
+        .color("red")
+        .bold(true)
+        .style("square")
+        .width(40)
+        .default(false)
+        .prompt();
+
+    if confirmed {
+        println!("File deleted.");
+    } else {
+        println!("Operation cancelled.");
+    }
+}
+```
+
 ## 📚 Usage
 
 Add to your `Cargo.toml`:
 
 ```toml
-cliux = "0.3.0"
+cliux = "0.5.0"
 ```
 
 ## Screenshots
@@ -170,6 +212,14 @@ cliux = "0.3.0"
 ### Note
 
 ![Note](assets/note.gif)
+
+### Input
+
+![Input](assets/input.gif)
+
+### Confirm
+
+![Confirm](assets/confirm.gif)
 
 ## 🚧 Status
 
