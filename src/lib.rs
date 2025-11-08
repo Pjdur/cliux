@@ -8,8 +8,12 @@ pub mod layout;
 
 /// Re-exports the `Boxed` struct from the `components` module.
 pub use components::Boxed;
+/// Re-exports the `Confirm` struct from `components` module.
+pub use components::Confirm;
 /// Re-exports the `Divider` struct from the `components` module.
 pub use components::Divider;
+/// Re-exports the `Input` struct from `components` module.
+pub use components::Input;
 /// Re-exports the `Label` struct from the `components` module.
 pub use components::Label;
 /// Re-exports the `List` struct from the `components` module.

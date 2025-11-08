@@ -1,6 +1,6 @@
 [package]
 name = "cliux"
-version = "0.4.0"
+version = "0.5.0"
 edition = "2024"
 license = "MIT"
 authors = ["Pjdur"]
@@ -11,5 +11,6 @@ categories = ["command-line-interface", "text-processing"]
 
 [dependencies]
 ansi_term = "0.12.1"
+rpassword = "7.4.0"
 unicode-segmentation = "1.10"
 unicode-width = "0.1"

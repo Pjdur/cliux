@@ -8,150 +8,10 @@ cliux
 │       [Could not read file: stream did not contain valid UTF-8]
 │   ├── list.gif
 │       [Could not read file: stream did not contain valid UTF-8]
-│   ├── note.cast
-│       --- FILE CONTENT START ---
-│       {"version":2,"width":114,"height":13,"timestamp":1762363288,"env":{"TERM":"xterm-256color","SHELL":"powershell.exe"}}
-│       [0.28980469703674316,"o","\u001b[?25l\u001b[2J\u001b[m\u001b[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\u001b[4;1HInstall the latest PowerShell for new features and improvements! https://aka.ms/PSWindows\u001b[6;1H\u001b]0;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\u0007\u001b[?25h"]
-│       [0.6647684574127197,"o","PS D:\\cliux> "]
-│       [1.1994004249572754,"o","\u001b[93mc"]
-│       [1.2143187522888184,"o","\u001b[m"]
-│       [1.258467435836792,"o","\u001b[93m\bcl"]
-│       [1.2741179466247559,"o","\u001b[m"]
-│       [1.368086576461792,"o","\u001b[?25l\u001b[93m\u001b[6;14Hcls\u001b[?25h"]
-│       [1.3837800025939941,"o","\u001b[m"]
-│       [1.524888277053833,"o","\r\n"]
-│       [1.5713679790496826,"o","\u001b[?25l\u001b[3J\u001b[H\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\u001b[H\u001b[?25h"]
-│       [1.6189372539520264,"o","PS D:\\cliux> "]
-│       [2.8207461833953857,"o","\u001b[93mc"]
-│       [2.836695909500122,"o","\u001b[m"]
-│       [3.0083792209625244,"o","\u001b[93m\bca"]
-│       [3.028982162475586,"o","\u001b[m"]
-│       [3.211700916290283,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcar\u001b[?25h"]
-│       [3.2307443618774414,"o","\u001b[m"]
-│       [3.3991503715515137,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcarg\u001b[?25h"]
-│       [3.414424180984497,"o","\u001b[m"]
-│       [3.513435125350952,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo\u001b[?25h"]
-│       [3.5241634845733643,"o","\u001b[m"]
-│       [3.680567979812622,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[?25h"]
-│       [3.6958186626434326,"o","\u001b[m"]
-│       [3.763984203338623,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mr\u001b[?25h"]
-│       [3.8849387168884277,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mru\u001b[?25h"]
-│       [4.3209569454193115,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun\u001b[?25h"]
-│       [4.492588996887207,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[?25h"]
-│       [4.729205369949341,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun -\u001b[?25h"]
-│       [4.887994766235352,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--\u001b[?25h"]
-│       [4.919428825378418,"o","\u001b[m"]
-│       [4.991772890090942,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--e\u001b[?25h"]
-│       [5.007662773132324,"o","\u001b[m"]
-│       [5.492095232009888,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--ex\u001b[?25h"]
-│       [5.512484788894653,"o","\u001b[m"]
-│       [5.679957628250122,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--exa\u001b[?25h"]
-│       [5.699928283691406,"o","\u001b[m"]
-│       [5.773168325424194,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--exam\u001b[?25h"]
-│       [5.813159227371216,"o","\u001b[m"]
-│       [5.960678339004517,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--examp\u001b[?25h"]
-│       [5.976335048675537,"o","\u001b[m"]
-│       [6.183069467544556,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--exampe\u001b[?25h"]
-│       [6.195231199264526,"o","\u001b[m"]
-│       [6.42952299118042,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--examp \b\u001b[?25h"]
-│       [6.4452736377716064,"o","\u001b[m"]
-│       [6.585639238357544,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--exampl\u001b[?25h"]
-│       [6.604814052581787,"o","\u001b[m"]
-│       [6.663663387298584,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example\u001b[?25h"]
-│       [6.6839759349823,"o","\u001b[m"]
-│       [6.757733583450317,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example \u001b[?25h"]
-│       [6.77305793762207,"o","\u001b[m"]
-│       [6.898152828216553,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example \u001b[mn\u001b[?25h"]
-│       [7.070188283920288,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example \u001b[mno\u001b[?25h"]
-│       [7.148147344589233,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example \u001b[mnot\u001b[?25h"]
-│       [7.742279291152954,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example \u001b[mnote\u001b[?25h"]
-│       [8.166410684585571,"o","\r\n"]
-│       [8.569990158081055,"o","\u001b[32m\u001b[1m    Finished\u001b[m `dev` profile [unoptimized + debuginfo] target(s) in 0.10s\u001b[32m\u001b[1m\r\n     Running\u001b[m `target\\debug\\examples\\note.exe`\r\n"]
-│       [8.913297414779663,"o","╭──────────────────────────────────────╮\r\n│ ⚠️ Be careful with this setting.     │\r\n╰──────────────────────────────────────╯\r\n+──────────────────────────────────────+\r\n| 💡 Tip: You can use --force here.    |\r\n+──────────────────────────────────────+\r\n"]
-│       [8.929112195968628,"o","PS D:\\cliux> "]
-│       [9.897683382034302,"o","\u001b[93me"]
-│       [9.913358688354492,"o","\u001b[m"]
-│       [10.085402011871338,"o","\u001b[93m\bex"]
-│       [10.105115413665771,"o","\u001b[m"]
-│       [10.210665702819824,"o","\u001b[?25l\u001b[93m\u001b[10;14Hexi\u001b[?25h"]
-│       [10.240496397018433,"o","\u001b[m"]
-│       [10.429342031478882,"o","\u001b[?25l\u001b[92m\u001b[10;14Hexit\u001b[?25h"]
-│       [10.44578242301941,"o","\u001b[m"]
-│       [10.679314136505127,"o","\r\n"]
-│       --- FILE CONTENT END ---
 │   ├── note.gif
 │       [Could not read file: stream did not contain valid UTF-8]
 │   ├── section.gif
 │       [Could not read file: stream did not contain valid UTF-8]
-│   ├── table.cast
-│       --- FILE CONTENT START ---
-│       {"version":2,"width":114,"height":13,"timestamp":1762363256,"env":{"SHELL":"powershell.exe","TERM":"xterm-256color"}}
-│       [0.27774930000305176,"o","\u001b[?25l\u001b[2J\u001b[m\u001b[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\u001b[4;1HInstall the latest PowerShell for new features and improvements! https://aka.ms/PSWindows\u001b[6;1H\u001b]0;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\u0007\u001b[?25h"]
-│       [0.6370391845703125,"o","PS D:\\cliux> "]
-│       [1.187117338180542,"o","\u001b[93mc"]
-│       [1.1996345520019531,"o","\u001b[m"]
-│       [1.2630376815795898,"o","\u001b[93m\bcl"]
-│       [1.277867078781128,"o","\u001b[m"]
-│       [1.371610164642334,"o","\u001b[?25l\u001b[93m\u001b[6;14Hcls\u001b[?25h"]
-│       [1.3871970176696777,"o","\u001b[m"]
-│       [1.496412992477417,"o","\r\n"]
-│       [1.5439047813415527,"o","\u001b[?25l\u001b[3J\u001b[H\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\u001b[H\u001b[?25h"]
-│       [1.5666885375976562,"o","\u001b[?25l\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\u001b[H\u001b[?25h"]
-│       [1.5904278755187988,"o","PS D:\\cliux> "]
-│       [1.8561577796936035,"o","\u001b[93mc"]
-│       [1.872072458267212,"o","\u001b[m"]
-│       [2.0750021934509277,"o","\u001b[93m\bca"]
-│       [2.090477228164673,"o","\u001b[m"]
-│       [2.2627859115600586,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcar\u001b[?25h"]
-│       [2.2870779037475586,"o","\u001b[m"]
-│       [2.43717098236084,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcarg\u001b[?25h"]
-│       [2.449786424636841,"o","\u001b[m"]
-│       [2.5439653396606445,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo\u001b[?25h"]
-│       [2.559324026107788,"o","\u001b[m"]
-│       [2.7314867973327637,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[?25h"]
-│       [2.7469537258148193,"o","\u001b[m"]
-│       [2.8251233100891113,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mr\u001b[?25h"]
-│       [2.935922384262085,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mru\u001b[?25h"]
-│       [3.1220762729644775,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun\u001b[?25h"]
-│       [3.5440187454223633,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[?25h"]
-│       [3.8416247367858887,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun -\u001b[?25h"]
-│       [3.9820821285247803,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--\u001b[?25h"]
-│       [3.997410774230957,"o","\u001b[m"]
-│       [4.1696882247924805,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--e\u001b[?25h"]
-│       [4.185812473297119,"o","\u001b[m"]
-│       [4.35723876953125,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--ex\u001b[?25h"]
-│       [4.3724894523620605,"o","\u001b[m"]
-│       [4.544981002807617,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--exa\u001b[?25h"]
-│       [4.570948600769043,"o","\u001b[m"]
-│       [4.609961032867432,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--exam\u001b[?25h"]
-│       [4.625354290008545,"o","\u001b[m"]
-│       [4.794369697570801,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--examp\u001b[?25h"]
-│       [4.809993743896484,"o","\u001b[m"]
-│       [4.966927766799927,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--exampl\u001b[?25h"]
-│       [5.005012273788452,"o","\u001b[m"]
-│       [5.060893774032593,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example\u001b[?25h"]
-│       [5.075783967971802,"o","\u001b[m"]
-│       [5.184993743896484,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example \u001b[?25h"]
-│       [5.203546524047852,"o","\u001b[m"]
-│       [5.279328346252441,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example \u001b[mt\u001b[?25h"]
-│       [5.49797511100769,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example \u001b[mta\u001b[?25h"]
-│       [5.560367584228516,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example \u001b[mtab\u001b[?25h"]
-│       [5.763465404510498,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example \u001b[mtabl\u001b[?25h"]
-│       [5.888219118118286,"o","\u001b[?25l\u001b[93m\u001b[1;14Hcargo \u001b[mrun \u001b[90m--example \u001b[mtable\u001b[?25h"]
-│       [6.028880596160889,"o","\r\n"]
-│       [6.419597625732422,"o","\u001b[32m\u001b[1m    Finished\u001b[m `dev` profile [unoptimized + debuginfo] target(s) in 0.11s\u001b[32m\u001b[1m\r\n     Running\u001b[m `target\\debug\\examples\\table.exe`\r\n"]
-│       [6.732205152511597,"o","+--------------------+----------+\r\n| Name               | Status   |\r\n+--------------------+----------+\r\n| cliux              | active   |\r\n| other              | pending  |\r\n+--------------------+----------+\r\n"]
-│       [6.748462915420532,"o","PS D:\\cliux> "]
-│       [7.763109445571899,"o","\u001b[93me"]
-│       [7.778758764266968,"o","\u001b[m"]
-│       [7.951489448547363,"o","\u001b[93m\bex"]
-│       [7.966242790222168,"o","\u001b[m"]
-│       [8.04464602470398,"o","\u001b[?25l\u001b[93m\u001b[10;14Hexi\u001b[?25h"]
-│       [8.060189723968506,"o","\u001b[m"]
-│       [8.185110330581665,"o","\u001b[?25l\u001b[92m\u001b[10;14Hexit\u001b[?25h"]
-│       [8.203560590744019,"o","\u001b[m"]
-│       [8.37264108657837,"o","\r\n"]
-│       --- FILE CONTENT END ---
 │   ├── table.gif
 │       [Could not read file: stream did not contain valid UTF-8]
 │   └── tag.gif
@@ -168,12 +28,48 @@ cliux
 │               .print();
 │       }
 │       --- FILE CONTENT END ---
+│   ├── confirm.rs
+│       --- FILE CONTENT START ---
+│       use cliux::Confirm;
+│       
+│       fn main() {
+│           let confirmed = Confirm::new("Delete file?")
+│               .color("red")
+│               .bold(true)
+│               .style("square")
+│               .width(40)
+│               .default(false)
+│               .prompt();
+│       
+│           if confirmed {
+│               println!("File deleted.");
+│           } else {
+│               println!("Operation cancelled.");
+│           }
+│       }
+│       --- FILE CONTENT END ---
 │   ├── divider.rs
 │       --- FILE CONTENT START ---
 │       use cliux::Divider;
 │       
 │       fn main() {
 │           Divider::new(20).print();
+│       }
+│       --- FILE CONTENT END ---
+│   ├── input.rs
+│       --- FILE CONTENT START ---
+│       use cliux::Input;
+│       
+│       fn main() {
+│           let name = Input::new("What's your name?")
+│               .default("Anonymous")
+│               .bold(true)
+│               .color("cyan")
+│               .style("rounded")
+│               .width(40)
+│               .prompt();
+│       
+│           println!("Hello, {}!", name);
 │       }
 │       --- FILE CONTENT END ---
 │   ├── label.rs
@@ -358,6 +254,101 @@ cliux
 │   │           }
 │   │       }
 │   │       --- FILE CONTENT END ---
+│   │   ├── confirm.rs
+│   │       --- FILE CONTENT START ---
+│   │       use crate::components::note::get_border;
+│   │       use crate::layout::pad;
+│   │       
+│   │       pub struct Confirm {
+│   │           label: String,
+│   │           default: Option<bool>,
+│   │           color: Option<String>,
+│   │           bold: bool,
+│   │           style: Option<String>,
+│   │           width: usize,
+│   │       }
+│   │       
+│   │       impl Confirm {
+│   │           pub fn new(label: &str) -> Self {
+│   │               Self {
+│   │                   label: label.to_string(),
+│   │                   default: None,
+│   │                   color: None,
+│   │                   bold: false,
+│   │                   style: Some("square".to_string()),
+│   │                   width: 40,
+│   │               }
+│   │           }
+│   │       
+│   │           pub fn default(mut self, value: bool) -> Self {
+│   │               self.default = Some(value);
+│   │               self
+│   │           }
+│   │       
+│   │           pub fn color(mut self, color: &str) -> Self {
+│   │               self.color = Some(color.to_string());
+│   │               self
+│   │           }
+│   │       
+│   │           pub fn bold(mut self, bold: bool) -> Self {
+│   │               self.bold = bold;
+│   │               self
+│   │           }
+│   │       
+│   │           pub fn style(mut self, style: &str) -> Self {
+│   │               self.style = Some(style.to_string());
+│   │               self
+│   │           }
+│   │       
+│   │           pub fn width(mut self, width: usize) -> Self {
+│   │               self.width = width;
+│   │               self
+│   │           }
+│   │       
+│   │           pub fn prompt(&self) -> bool {
+│   │               use ansi_term::Style;
+│   │               use std::io::{self, Write};
+│   │       
+│   │               let (tl, tr, bl, br, h, v) = get_border(self.style.as_deref().unwrap_or("plain"));
+│   │               let mut style = Style::new();
+│   │       
+│   │               if let Some(ref color) = self.color {
+│   │                   if let Some(colour) = crate::components::label::parse_colour(color) {
+│   │                       style = style.fg(colour);
+│   │                   }
+│   │               }
+│   │               if self.bold {
+│   │                   style = style.bold();
+│   │               }
+│   │       
+│   │               let padded_label = pad(&format!("{} (y/n)", self.label), self.width);
+│   │               let styled_label = style.paint(padded_label).to_string();
+│   │       
+│   │               // Draw box
+│   │               println!("{}{}{}", tl, h.to_string().repeat(self.width), tr);
+│   │               println!("{}{}{}", v, styled_label, v);
+│   │               println!("{}{}{}", bl, h.to_string().repeat(self.width), br);
+│   │       
+│   │               // Input line
+│   │               print!("> ");
+│   │               io::stdout().flush().unwrap();
+│   │       
+│   │               let mut input = String::new();
+│   │               io::stdin().read_line(&mut input).unwrap();
+│   │               let input = input.trim().to_lowercase();
+│   │       
+│   │               match input.as_str() {
+│   │                   "y" | "yes" => true,
+│   │                   "n" | "no" => false,
+│   │                   "" => self.default.unwrap_or(false),
+│   │                   _ => {
+│   │                       println!("Invalid input. Please enter y or n.");
+│   │                       self.prompt()
+│   │                   }
+│   │               }
+│   │           }
+│   │       }
+│   │       --- FILE CONTENT END ---
 │   │   ├── divider.rs
 │   │       --- FILE CONTENT START ---
 │   │       /// A customizable horizontal line for separating sections of output.
@@ -424,6 +415,108 @@ cliux
 │   │           /// `width` times, to standard output.
 │   │           pub fn print(&self) {
 │   │               println!("{}", self.style.to_string().repeat(self.width));
+│   │           }
+│   │       }
+│   │       --- FILE CONTENT END ---
+│   │   ├── input.rs
+│   │       --- FILE CONTENT START ---
+│   │       use crate::components::note::get_border;
+│   │       use crate::layout::pad;
+│   │       
+│   │       pub struct Input {
+│   │           label: String,
+│   │           default: Option<String>,
+│   │           color: Option<String>,
+│   │           bold: bool,
+│   │           mask: bool,
+│   │           style: Option<String>,
+│   │           width: usize,
+│   │       }
+│   │       
+│   │       impl Input {
+│   │           pub fn new(label: &str) -> Self {
+│   │               Self {
+│   │                   label: label.to_string(),
+│   │                   default: None,
+│   │                   color: None,
+│   │                   bold: false,
+│   │                   mask: false,
+│   │                   style: Some("rounded".to_string()),
+│   │                   width: 40,
+│   │               }
+│   │           }
+│   │       
+│   │           pub fn default(mut self, value: &str) -> Self {
+│   │               self.default = Some(value.to_string());
+│   │               self
+│   │           }
+│   │       
+│   │           pub fn color(mut self, color: &str) -> Self {
+│   │               self.color = Some(color.to_string());
+│   │               self
+│   │           }
+│   │       
+│   │           pub fn bold(mut self, bold: bool) -> Self {
+│   │               self.bold = bold;
+│   │               self
+│   │           }
+│   │       
+│   │           pub fn mask(mut self, mask: bool) -> Self {
+│   │               self.mask = mask;
+│   │               self
+│   │           }
+│   │       
+│   │           pub fn style(mut self, style: &str) -> Self {
+│   │               self.style = Some(style.to_string());
+│   │               self
+│   │           }
+│   │       
+│   │           pub fn width(mut self, width: usize) -> Self {
+│   │               self.width = width;
+│   │               self
+│   │           }
+│   │       
+│   │           pub fn prompt(&self) -> String {
+│   │               use ansi_term::Style;
+│   │               use std::io::{self, Write};
+│   │       
+│   │               let (tl, tr, bl, br, h, v) = get_border(self.style.as_deref().unwrap_or("plain"));
+│   │               let mut style = Style::new();
+│   │       
+│   │               if let Some(ref color) = self.color {
+│   │                   if let Some(colour) = crate::components::label::parse_colour(color) {
+│   │                       style = style.fg(colour);
+│   │                   }
+│   │               }
+│   │               if self.bold {
+│   │                   style = style.bold();
+│   │               }
+│   │       
+│   │               let padded_label = pad(&self.label, self.width);
+│   │               let styled_label = style.paint(padded_label).to_string();
+│   │       
+│   │               // Draw box
+│   │               println!("{}{}{}", tl, h.to_string().repeat(self.width), tr);
+│   │               println!("{}{}{}", v, styled_label, v);
+│   │               println!("{}{}{}", bl, h.to_string().repeat(self.width), br);
+│   │       
+│   │               // Input line
+│   │               print!("> ");
+│   │               io::stdout().flush().unwrap();
+│   │       
+│   │               let mut input = String::new();
+│   │               if self.mask {
+│   │                   input = rpassword::read_password().unwrap_or_default();
+│   │               } else {
+│   │                   io::stdin().read_line(&mut input).unwrap();
+│   │                   input = input.trim().to_string();
+│   │               }
+│   │       
+│   │               if input.is_empty() {
+│   │                   self.default.clone().unwrap_or_default()
+│   │               } else {
+│   │                   input
+│   │               }
 │   │           }
 │   │       }
 │   │       --- FILE CONTENT END ---
@@ -792,7 +885,9 @@ cliux
 │   │   ├── mod.rs
 │   │       --- FILE CONTENT START ---
 │   │       pub mod boxed;
+│   │       pub mod confirm;
 │   │       pub mod divider;
+│   │       pub mod input;
 │   │       pub mod label;
 │   │       pub mod list;
 │   │       pub mod note;
@@ -801,13 +896,15 @@ cliux
 │   │       pub mod tag;
 │   │       
 │   │       pub use boxed::Boxed;
+│   │       pub use confirm::Confirm;
 │   │       pub use divider::Divider;
+│   │       pub use input::Input;
 │   │       pub use label::Label;
 │   │       pub use list::List;
+│   │       pub use note::Note;
 │   │       pub use section::Section;
 │   │       pub use table::Table;
 │   │       pub use tag::Tag;
-│   │       pub use note::Note;
 │   │       --- FILE CONTENT END ---
 │   │   ├── note.rs
 │   │       --- FILE CONTENT START ---
@@ -1087,7 +1184,7 @@ cliux
 │   │       ///
 │   │       /// A tuple of string slices representing (top-left, top-right, bottom-left, bottom-right, horizontal, vertical)
 │   │       /// border characters. Defaults to "square" style if an unknown style is provided.
-│   │       fn get_border(style: &str) -> (&str, &str, &str, &str, &str, &str) {
+│   │       pub(crate) fn get_border(style: &str) -> (&str, &str, &str, &str, &str, &str) {
 │   │           match style {
 │   │               "rounded" => ("╭", "╮", "╰", "╯", "─", "│"),
 │   │               "square" => ("┌", "┐", "└", "┘", "─", "│"),
@@ -1756,8 +1853,12 @@ cliux
 │       
 │       /// Re-exports the `Boxed` struct from the `components` module.
 │       pub use components::Boxed;
+│       /// Re-exports the `Confirm` struct from `components` module.
+│       pub use components::Confirm;
 │       /// Re-exports the `Divider` struct from the `components` module.
 │       pub use components::Divider;
+│       /// Re-exports the `Input` struct from `components` module.
+│       pub use components::Input;
 │       /// Re-exports the `Label` struct from the `components` module.
 │       pub use components::Label;
 │       /// Re-exports the `List` struct from the `components` module.
@@ -1792,11 +1893,39 @@ cliux
     
     [[package]]
     name = "cliux"
-    version = "0.4.1"
+    version = "0.4.0"
     dependencies = [
      "ansi_term",
+     "rpassword",
      "unicode-segmentation",
      "unicode-width",
+    ]
+    
+    [[package]]
+    name = "libc"
+    version = "0.2.177"
+    source = "registry+https://github.com/rust-lang/crates.io-index"
+    checksum = "2874a2af47a2325c2001a6e6fad9b16a53b802102b528163885171cf92b15976"
+    
+    [[package]]
+    name = "rpassword"
+    version = "7.4.0"
+    source = "registry+https://github.com/rust-lang/crates.io-index"
+    checksum = "66d4c8b64f049c6721ec8ccec37ddfc3d641c4a7fca57e8f2a89de509c73df39"
+    dependencies = [
+     "libc",
+     "rtoolbox",
+     "windows-sys 0.59.0",
+    ]
+    
+    [[package]]
+    name = "rtoolbox"
+    version = "0.0.3"
+    source = "registry+https://github.com/rust-lang/crates.io-index"
+    checksum = "a7cc970b249fbe527d6e02e0a227762c9108b2f49d81094fe357ffc6d14d7f6f"
+    dependencies = [
+     "libc",
+     "windows-sys 0.52.0",
     ]
     
     [[package]]
@@ -1832,12 +1961,94 @@ cliux
     version = "0.4.0"
     source = "registry+https://github.com/rust-lang/crates.io-index"
     checksum = "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f"
+    
+    [[package]]
+    name = "windows-sys"
+    version = "0.52.0"
+    source = "registry+https://github.com/rust-lang/crates.io-index"
+    checksum = "282be5f36a8ce781fad8c8ae18fa3f9beff57ec1b52cb3de0789201425d9a33d"
+    dependencies = [
+     "windows-targets",
+    ]
+    
+    [[package]]
+    name = "windows-sys"
+    version = "0.59.0"
+    source = "registry+https://github.com/rust-lang/crates.io-index"
+    checksum = "1e38bc4d79ed67fd075bcc251a1c39b32a1776bbe92e5bef1f0bf1f8c531853b"
+    dependencies = [
+     "windows-targets",
+    ]
+    
+    [[package]]
+    name = "windows-targets"
+    version = "0.52.6"
+    source = "registry+https://github.com/rust-lang/crates.io-index"
+    checksum = "9b724f72796e036ab90c1021d4780d4d3d648aca59e491e6b98e725b84e99973"
+    dependencies = [
+     "windows_aarch64_gnullvm",
+     "windows_aarch64_msvc",
+     "windows_i686_gnu",
+     "windows_i686_gnullvm",
+     "windows_i686_msvc",
+     "windows_x86_64_gnu",
+     "windows_x86_64_gnullvm",
+     "windows_x86_64_msvc",
+    ]
+    
+    [[package]]
+    name = "windows_aarch64_gnullvm"
+    version = "0.52.6"
+    source = "registry+https://github.com/rust-lang/crates.io-index"
+    checksum = "32a4622180e7a0ec044bb555404c800bc9fd9ec262ec147edd5989ccd0c02cd3"
+    
+    [[package]]
+    name = "windows_aarch64_msvc"
+    version = "0.52.6"
+    source = "registry+https://github.com/rust-lang/crates.io-index"
+    checksum = "09ec2a7bb152e2252b53fa7803150007879548bc709c039df7627cabbd05d469"
+    
+    [[package]]
+    name = "windows_i686_gnu"
+    version = "0.52.6"
+    source = "registry+https://github.com/rust-lang/crates.io-index"
+    checksum = "8e9b5ad5ab802e97eb8e295ac6720e509ee4c243f69d781394014ebfe8bbfa0b"
+    
+    [[package]]
+    name = "windows_i686_gnullvm"
+    version = "0.52.6"
+    source = "registry+https://github.com/rust-lang/crates.io-index"
+    checksum = "0eee52d38c090b3caa76c563b86c3a4bd71ef1a819287c19d586d7334ae8ed66"
+    
+    [[package]]
+    name = "windows_i686_msvc"
+    version = "0.52.6"
+    source = "registry+https://github.com/rust-lang/crates.io-index"
+    checksum = "240948bc05c5e7c6dabba28bf89d89ffce3e303022809e73deaefe4f6ec56c66"
+    
+    [[package]]
+    name = "windows_x86_64_gnu"
+    version = "0.52.6"
+    source = "registry+https://github.com/rust-lang/crates.io-index"
+    checksum = "147a5c80aabfbf0c7d901cb5895d1de30ef2907eb21fbbab29ca94c5b08b1a78"
+    
+    [[package]]
+    name = "windows_x86_64_gnullvm"
+    version = "0.52.6"
+    source = "registry+https://github.com/rust-lang/crates.io-index"
+    checksum = "24d5b23dc417412679681396f2b49f3de8c1473deb516bd34410872eff51ed0d"
+    
+    [[package]]
+    name = "windows_x86_64_msvc"
+    version = "0.52.6"
+    source = "registry+https://github.com/rust-lang/crates.io-index"
+    checksum = "589f6da84c646204747d1270a2a5661ea66ed1cced2631d546fdfb155959f9ec"
     --- FILE CONTENT END ---
 ├── Cargo.toml
     --- FILE CONTENT START ---
     [package]
     name = "cliux"
-    version = "0.4.1"
+    version = "0.4.0"
     edition = "2024"
     license = "MIT"
     authors = ["Pjdur"]
@@ -1848,6 +2059,7 @@ cliux
     
     [dependencies]
     ansi_term = "0.12.1"
+    rpassword = "7.4.0"
     unicode-segmentation = "1.10"
     unicode-width = "0.1"
     --- FILE CONTENT END ---
@@ -1857,7 +2069,7 @@ cliux
     
     All notable changes to this project will be documented here.
     
-    ## [v0.4.1] – 2025-11-05
+    ## [v0.4.0] – 2025-11-05
     
     ### New Components
     
@@ -1878,7 +2090,9 @@ cliux
     
     ### Fixed
     
-    - Remove unnecessary `numbered` bool from `List` component.
+    - Refactored `List` component to remove the redundant `numbered` field.
+      - Numbering is now inferred from `bullet = None`, simplifying internal state and reducing ambiguity.
+      - This change improves API clarity without affecting external behavior.
     
     ## [0.3.0] - 2025-11-04
     

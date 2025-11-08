@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented here.
 
+## [0.5.0] - 2025-11-08
+
+### Added
+- `Input`: Styled prompt box for user input with support for masking, color, bold, and border styles.
+- `Confirm`: Declarative yes/no prompt with styled box and default fallback.
+
+### Changed
+- Improved ANSI styling alignment in `Input` by padding before applying styles.
+- Refined layout consistency across all components using grapheme-aware padding.
+
+### Notes
+- This version solidifies cliux as a styling-first CLI toolkit.
+- No TUI mechanics introduced — input remains simple and declarative.
+
 ## [v0.4.0] – 2025-11-05
 
 ### New Components

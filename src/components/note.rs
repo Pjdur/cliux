@@ -274,7 +274,7 @@ impl Note {
 ///
 /// A tuple of string slices representing (top-left, top-right, bottom-left, bottom-right, horizontal, vertical)
 /// border characters. Defaults to "square" style if an unknown style is provided.
-fn get_border(style: &str) -> (&str, &str, &str, &str, &str, &str) {
+pub(crate) fn get_border(style: &str) -> (&str, &str, &str, &str, &str, &str) {
     match style {
         "rounded" => ("╭", "╮", "╰", "╯", "─", "│"),
         "square" => ("┌", "┐", "└", "┘", "─", "│"),

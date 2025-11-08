@@ -1,5 +1,7 @@
 pub mod boxed;
+pub mod confirm;
 pub mod divider;
+pub mod input;
 pub mod label;
 pub mod list;
 pub mod note;
@@ -8,10 +10,12 @@ pub mod table;
 pub mod tag;
 
 pub use boxed::Boxed;
+pub use confirm::Confirm;
 pub use divider::Divider;
+pub use input::Input;
 pub use label::Label;
 pub use list::List;
+pub use note::Note;
 pub use section::Section;
 pub use table::Table;
 pub use tag::Tag;
-pub use note::Note;
