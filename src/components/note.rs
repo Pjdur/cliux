@@ -224,7 +224,9 @@ impl Note {
         // Build ANSI style for text and icon
         let mut style = Style::new();
         if let Some(ref color_name) = self.color {
-            style = match color_name.as_str() {
+            // Normalize the provided color name so matching is case-insensitive
+            let color = color_name.trim().to_lowercase();
+            style = match color.as_str() {
                 "red" => style.fg(Colour::Red),
                 "green" => style.fg(Colour::Green),
                 "yellow" => style.fg(Colour::Yellow),
