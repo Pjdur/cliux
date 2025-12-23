@@ -176,7 +176,7 @@ fn main() {
 Add to your `Cargo.toml`:
 
 ```toml
-cliux = "0.5.0"
+cliux = "0.5.1"
 ```
 
 ## Screenshots
